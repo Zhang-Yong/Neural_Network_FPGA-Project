@@ -1,0 +1,93 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Mar 14 21:45:24 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P21" LEVEL 1;
+COMP "Input<0>" LOCATE = SITE "P56" LEVEL 1;
+COMP "Input<1>" LOCATE = SITE "P55" LEVEL 1;
+COMP "corrOut<0>" LOCATE = SITE "P43" LEVEL 1;
+COMP "corrOut<1>" LOCATE = SITE "P41" LEVEL 1;
+COMP "corrOut<2>" LOCATE = SITE "P40" LEVEL 1;
+COMP "corrOut<3>" LOCATE = SITE "P39" LEVEL 1;
+COMP "corrOut<4>" LOCATE = SITE "P38" LEVEL 1;
+COMP "update" LOCATE = SITE "P51" LEVEL 1;
+COMP "Output<0>" LOCATE = SITE "P57" LEVEL 1;
+COMP "Output<1>" LOCATE = SITE "P58" LEVEL 1;
+COMP "Output<2>" LOCATE = SITE "P59" LEVEL 1;
+COMP "Output<3>" LOCATE = SITE "P61" LEVEL 1;
+COMP "Output<4>" LOCATE = SITE "P62" LEVEL 1;
+TIMEGRP clk = BEL "input_result_0" BEL "input_result_1" BEL "corrOut_result_0"
+        BEL "corrOut_result_1" BEL "corrOut_result_2" BEL "corrOut_result_3"
+        BEL "corrOut_result_4" BEL "clk_BUFGP/BUFG";
+TIMEGRP update = BEL "mL/weightIn1_7" BEL "mL/weightIn1_6" BEL
+        "mL/weightIn1_5" BEL "mL/weightIn1_4" BEL "mL/weightIn1_3" BEL
+        "mL/weightIn1_2" BEL "mL/weightIn1_1" BEL "mL/weightIn1_0" BEL
+        "mL/weightIn0_7" BEL "mL/weightIn0_6" BEL "mL/weightIn0_5" BEL
+        "mL/weightIn0_4" BEL "mL/weightIn0_3" BEL "mL/weightIn0_2" BEL
+        "mL/weightIn0_1" BEL "mL/weightIn0_0" BEL "mL/w1Stor_7" BEL
+        "mL/w1Stor_6" BEL "mL/w1Stor_5" BEL "mL/w1Stor_4" BEL "mL/w1Stor_3"
+        BEL "mL/w1Stor_2" BEL "mL/w1Stor_1" BEL "mL/w1Stor_0" BEL
+        "mL/w0Stor_7" BEL "mL/w0Stor_6" BEL "mL/w0Stor_5" BEL "mL/w0Stor_4"
+        BEL "mL/w0Stor_3" BEL "mL/w0Stor_2" BEL "mL/w0Stor_1" BEL
+        "mL/w0Stor_0" BEL "mM/weightIn1_7" BEL "mM/weightIn1_6" BEL
+        "mM/weightIn1_5" BEL "mM/weightIn1_4" BEL "mM/weightIn1_3" BEL
+        "mM/weightIn1_2" BEL "mM/weightIn1_1" BEL "mM/weightIn1_0" BEL
+        "mM/weightIn0_7" BEL "mM/weightIn0_6" BEL "mM/weightIn0_5" BEL
+        "mM/weightIn0_4" BEL "mM/weightIn0_3" BEL "mM/weightIn0_2" BEL
+        "mM/weightIn0_1" BEL "mM/weightIn0_0" BEL "mM/w1Stor_7" BEL
+        "mM/w1Stor_6" BEL "mM/w1Stor_5" BEL "mM/w1Stor_4" BEL "mM/w1Stor_3"
+        BEL "mM/w1Stor_2" BEL "mM/w1Stor_1" BEL "mM/w1Stor_0" BEL
+        "mM/w0Stor_7" BEL "mM/w0Stor_6" BEL "mM/w0Stor_5" BEL "mM/w0Stor_4"
+        BEL "mM/w0Stor_3" BEL "mM/w0Stor_2" BEL "mM/w0Stor_1" BEL
+        "mM/w0Stor_0" BEL "mR/weightIn1_7" BEL "mR/weightIn1_6" BEL
+        "mR/weightIn1_5" BEL "mR/weightIn1_4" BEL "mR/weightIn1_3" BEL
+        "mR/weightIn1_2" BEL "mR/weightIn1_1" BEL "mR/weightIn1_0" BEL
+        "mR/weightIn0_7" BEL "mR/weightIn0_6" BEL "mR/weightIn0_5" BEL
+        "mR/weightIn0_4" BEL "mR/weightIn0_3" BEL "mR/weightIn0_2" BEL
+        "mR/weightIn0_1" BEL "mR/weightIn0_0" BEL "mR/w1Stor_7" BEL
+        "mR/w1Stor_6" BEL "mR/w1Stor_5" BEL "mR/w1Stor_4" BEL "mR/w1Stor_3"
+        BEL "mR/w1Stor_2" BEL "mR/w1Stor_1" BEL "mR/w1Stor_0" BEL
+        "mR/w0Stor_7" BEL "mR/w0Stor_6" BEL "mR/w0Stor_5" BEL "mR/w0Stor_4"
+        BEL "mR/w0Stor_3" BEL "mR/w0Stor_2" BEL "mR/w0Stor_1" BEL
+        "mR/w0Stor_0" BEL "t/w1Stor_7" BEL "t/w1Stor_6" BEL "t/w1Stor_5" BEL
+        "t/w1Stor_4" BEL "t/w1Stor_3" BEL "t/w1Stor_2" BEL "t/w1Stor_1" BEL
+        "t/w1Stor_0" BEL "t/weightIn2_7" BEL "t/weightIn2_6" BEL
+        "t/weightIn2_5" BEL "t/weightIn2_4" BEL "t/weightIn2_3" BEL
+        "t/weightIn2_2" BEL "t/weightIn2_1" BEL "t/weightIn2_0" BEL
+        "t/weightIn0_7" BEL "t/weightIn0_6" BEL "t/weightIn0_5" BEL
+        "t/weightIn0_4" BEL "t/weightIn0_3" BEL "t/weightIn0_2" BEL
+        "t/weightIn0_1" BEL "t/weightIn0_0" BEL "t/w0Stor_7" BEL "t/w0Stor_6"
+        BEL "t/w0Stor_5" BEL "t/w0Stor_4" BEL "t/w0Stor_3" BEL "t/w0Stor_2"
+        BEL "t/w0Stor_1" BEL "t/w0Stor_0" BEL "t/w2Stor_7" BEL "t/w2Stor_6"
+        BEL "t/w2Stor_5" BEL "t/w2Stor_4" BEL "t/w2Stor_3" BEL "t/w2Stor_2"
+        BEL "t/w2Stor_1" BEL "t/w2Stor_0" BEL "t/weightIn1_7" BEL
+        "t/weightIn1_6" BEL "t/weightIn1_5" BEL "t/weightIn1_4" BEL
+        "t/weightIn1_3" BEL "t/weightIn1_2" BEL "t/weightIn1_1" BEL
+        "t/weightIn1_0" BEL "update_IBUF_BUFG";
+TIMEGRP Input_Timing_Group = BEL "Input<1>" BEL "Input<0>";
+TIMEGRP Input = BEL "Input<1>" BEL "Input<0>";
+TIMEGRP corrOut_Timing_Group = BEL "corrOut<4>" BEL "corrOut<3>" BEL
+        "corrOut<2>" BEL "corrOut<1>" BEL "corrOut<0>";
+TIMEGRP corrOut = BEL "corrOut<4>" BEL "corrOut<3>" BEL "corrOut<2>" BEL
+        "corrOut<1>" BEL "corrOut<0>";
+TIMEGRP Output_Timing_Group = BEL "Output<4>" BEL "Output<3>" BEL "Output<2>"
+        BEL "Output<1>" BEL "Output<0>";
+TIMEGRP Output = BEL "Output<4>" BEL "Output<3>" BEL "Output<2>" BEL
+        "Output<1>" BEL "Output<0>";
+TS_clk = PERIOD TIMEGRP "clk" 100 ns HIGH 50% INPUT_JITTER 0.06 ns;
+TS_From_CLK_TO_Update = MAXDELAY FROM TIMEGRP "clk" TO TIMEGRP "update" 70 ns;
+TS_update = PERIOD TIMEGRP "update" 200 ns HIGH 50% INPUT_JITTER 0.1 ns;
+OFFSET = IN 6 ns VALID 100 ns BEFORE COMP "clk" "RISING";
+TIMEGRP "corrOut" OFFSET = IN 10 ns VALID 100 ns BEFORE COMP "clk" "RISING";
+TIMEGRP "Input" OFFSET = IN 10 ns VALID 100 ns BEFORE COMP "clk" "RISING";
+TIMEGRP "update" OFFSET = IN 10 ns VALID 100 ns BEFORE COMP "clk" "RISING";
+OFFSET = OUT 100 ns AFTER COMP "clk";
+TIMEGRP "Output" OFFSET = OUT 50 ns AFTER COMP "clk";
+OFFSET = IN 6 ns VALID 100 ns BEFORE COMP "update" "RISING";
+OFFSET = IN 6 ns VALID 100 ns BEFORE COMP "update" "FALLING";
+OFFSET = OUT 50 ns AFTER COMP "update";
+OFFSET = OUT 50 ns AFTER COMP "update" "RISING";
+OFFSET = OUT 50 ns AFTER COMP "update" "FALLING";
+SCHEMATIC END;
+

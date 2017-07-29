@@ -1,0 +1,29 @@
+Command line:
+   WeightMult_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49665
+
+Tue Feb 21 14:27:13 2017
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 666.874 Meg
+
+ Total Signals          : 10
+ Total Nets             : 77
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 7
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 560
+Total Line Count : 7
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 666.874 Meg
+
+Tue Feb 21 14:30:23 2017
+

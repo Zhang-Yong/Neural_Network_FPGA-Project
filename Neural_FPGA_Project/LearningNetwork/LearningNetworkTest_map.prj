@@ -1,0 +1,2 @@
+vhdl work "netgen/map/LearningNetwork_map.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "ipcore_dir/ReplayBuffer.vhd"
+vhdl isim_temp "ReplayBuffer_tb.vhd"

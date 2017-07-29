@@ -1,0 +1,7 @@
+vhdl work "remote_sources/_/multiplier.vhd"
+vhdl work "remote_sources/_/weightUpdateOutput.vhd"
+vhdl work "remote_sources/_/weightUpdateHidden.vhd"
+vhdl work "remote_sources/_/WeightMult.vhd"
+vhdl work "remote_sources/_/OutputNode.vhd"
+vhdl work "remote_sources/_/HiddenNode.vhd"
+vhdl work "remote_sources/_/LearningNetwork.vhd"

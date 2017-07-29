@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/translate/LearningNetwork_translate.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"

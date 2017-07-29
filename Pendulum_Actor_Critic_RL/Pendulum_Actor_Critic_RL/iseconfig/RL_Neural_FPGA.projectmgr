@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="RL_Neural_FPGA" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod0 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod1 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod2 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod3 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod4 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod5 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod6 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mL - HiddenNode - Behavioral/weightUpdateMod7 - weightUpdateHidden - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mM - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/mR - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetwork - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork.vhd/t - OutputNode - Behavioral</ClosedNode>
+         <ClosedNode>/Network - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|Network.vhd</ClosedNode>
+         <ClosedNode>/SigmoidTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|SigmoidTest.vhd</ClosedNode>
+         <ClosedNode>/WeightTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|WeightTest.vhd</ClosedNode>
+         <ClosedNode>/hiddenFullTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|hiddenFullTest.vhd</ClosedNode>
+         <ClosedNode>/hiddenFullTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|hiddenFullTest.vhd/uut - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/multTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|multTest.vhd</ClosedNode>
+         <ClosedNode>/sigDervTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|sigDervTest.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>LearningNetwork - Behavioral (E:/Xilinx/Neural_FPGA_Project_RL/LearningNetwork.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d70000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>LearningNetwork - Behavioral (E:/Xilinx/Neural_FPGA_Project_RL/LearningNetwork.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004800000001000000000000002c0000000100000000000000980000000100000000000002820000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>hiddenFullTest.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000016d000000010001000100000000000000000000000064ffffffff0000008100000000000000010000016d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000191000000010000000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetworkTest.vhd/uut - LearningNetwork - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/mL - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/mM - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/mR - HiddenNode - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod0 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod1 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod2 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod3 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod4 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod5 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod6 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/LearningNetworkTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|LearningNetwork_tb.vhd/uut - LearningNetwork - Behavioral/t - OutputNode - Behavioral/weightUpdateMod7 - weightUpdateOutput - Behavioral</ClosedNode>
+         <ClosedNode>/Network - Behavioral E:|Xilinx|Neural_FPGA_Project_RL|Network.vhd</ClosedNode>
+         <ClosedNode>/SigmoidTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|SigmoidTest.vhd</ClosedNode>
+         <ClosedNode>/WeightTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|WeightTest.vhd</ClosedNode>
+         <ClosedNode>/hiddenFullTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|hiddenFullTest.vhd</ClosedNode>
+         <ClosedNode>/multTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|multTest.vhd</ClosedNode>
+         <ClosedNode>/sigDervTest - behavior E:|Xilinx|Neural_FPGA_Project_RL|sigDervTest.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>outputFullTest - behavior (E:/Xilinx/Neural_FPGA_Project_RL/outputFullTest.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002cc000000020000000000000000000000000200000064ffffffff000000810000000300000002000002cc0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>outputFullTest - behavior (E:/Xilinx/Neural_FPGA_Project_RL/outputFullTest.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000016f0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

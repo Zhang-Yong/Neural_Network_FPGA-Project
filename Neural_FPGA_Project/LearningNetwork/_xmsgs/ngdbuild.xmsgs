@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;corrOut[4]&quot; LOC = P38;&gt; [LearningNetwork.ucf(6)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;corrOut[3]&quot; LOC = P39;&gt; [LearningNetwork.ucf(7)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;corrOut[2]&quot; LOC = P40;&gt; [LearningNetwork.ucf(8)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;corrOut[1]&quot; LOC = P41;&gt; [LearningNetwork.ucf(9)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;corrOut[0]&quot; LOC = P43;&gt; [LearningNetwork.ucf(10)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Input[1]&quot; LOC = P55;&gt; [LearningNetwork.ucf(11)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Input[0]&quot; LOC = P56;&gt; [LearningNetwork.ucf(12)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Output[4]&quot; LOC = P62;&gt; [LearningNetwork.ucf(14)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Output[3]&quot; LOC = P61;&gt; [LearningNetwork.ucf(15)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Output[2]&quot; LOC = P59;&gt; [LearningNetwork.ucf(16)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Output[1]&quot; LOC = P58;&gt; [LearningNetwork.ucf(17)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Output[0]&quot; LOC = P57;&gt; [LearningNetwork.ucf(18)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;corrOut[4]&quot; LOC = P38;&gt; [LearningNetwork.ucf(6)]</arg> is overridden on the design object <arg fmt="%s" index="2">corrOut&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;corrOut&lt;4&gt;&quot; LOC = P38;&gt; [LearningNetwork.ucf(52)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;corrOut[3]&quot; LOC = P39;&gt; [LearningNetwork.ucf(7)]</arg> is overridden on the design object <arg fmt="%s" index="2">corrOut&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;corrOut&lt;3&gt;&quot; LOC = P39;&gt; [LearningNetwork.ucf(51)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;corrOut[2]&quot; LOC = P40;&gt; [LearningNetwork.ucf(8)]</arg> is overridden on the design object <arg fmt="%s" index="2">corrOut&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;corrOut&lt;2&gt;&quot; LOC = P40;&gt; [LearningNetwork.ucf(50)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;corrOut[1]&quot; LOC = P41;&gt; [LearningNetwork.ucf(9)]</arg> is overridden on the design object <arg fmt="%s" index="2">corrOut&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;corrOut&lt;1&gt;&quot; LOC = P41;&gt; [LearningNetwork.ucf(49)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;corrOut[0]&quot; LOC = P43;&gt; [LearningNetwork.ucf(10)]</arg> is overridden on the design object <arg fmt="%s" index="2">corrOut&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;corrOut&lt;0&gt;&quot; LOC = P43;&gt; [LearningNetwork.ucf(47)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Input[1]&quot; LOC = P55;&gt; [LearningNetwork.ucf(11)]</arg> is overridden on the design object <arg fmt="%s" index="2">Input&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Input&lt;1&gt;&quot; LOC = P55;&gt; [LearningNetwork.ucf(46)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Input[0]&quot; LOC = P56;&gt; [LearningNetwork.ucf(12)]</arg> is overridden on the design object <arg fmt="%s" index="2">Input&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Input&lt;0&gt;&quot; LOC = P56;&gt; [LearningNetwork.ucf(45)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Output[4]&quot; LOC = P62;&gt; [LearningNetwork.ucf(14)]</arg> is overridden on the design object <arg fmt="%s" index="2">Output&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Output&lt;4&gt;&quot; LOC = P62;&gt; [LearningNetwork.ucf(44)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Output[3]&quot; LOC = P61;&gt; [LearningNetwork.ucf(15)]</arg> is overridden on the design object <arg fmt="%s" index="2">Output&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Output&lt;3&gt;&quot; LOC = P61;&gt; [LearningNetwork.ucf(56)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Output[2]&quot; LOC = P59;&gt; [LearningNetwork.ucf(16)]</arg> is overridden on the design object <arg fmt="%s" index="2">Output&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Output&lt;2&gt;&quot; LOC = P59;&gt; [LearningNetwork.ucf(55)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Output[1]&quot; LOC = P58;&gt; [LearningNetwork.ucf(17)]</arg> is overridden on the design object <arg fmt="%s" index="2">Output&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Output&lt;1&gt;&quot; LOC = P58;&gt; [LearningNetwork.ucf(54)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Output[0]&quot; LOC = P57;&gt; [LearningNetwork.ucf(18)]</arg> is overridden on the design object <arg fmt="%s" index="2">Output&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Output&lt;0&gt;&quot; LOC = P57;&gt; [LearningNetwork.ucf(53)]</arg>.
+</msg>
+
+</messages>
+

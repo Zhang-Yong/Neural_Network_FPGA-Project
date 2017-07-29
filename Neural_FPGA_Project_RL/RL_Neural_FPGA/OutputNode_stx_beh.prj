@@ -1,0 +1,4 @@
+vhdl isim_temp "../multiplier.vhd"
+vhdl isim_temp "../weightUpdateOutput.vhd"
+vhdl isim_temp "../WeightMult.vhd"
+vhdl isim_temp "../OutputNode.vhd"

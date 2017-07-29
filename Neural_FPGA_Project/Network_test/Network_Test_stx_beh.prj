@@ -1,0 +1,5 @@
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/Node.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/Network.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/Network_Test.vhd"

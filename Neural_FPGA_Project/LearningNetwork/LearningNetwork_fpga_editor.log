@@ -1,0 +1,51 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   E:\Xilinx\Neural_FPGA_Project\LearningNetwork
+#Date/Time:
+#:T   Mon Mar 06 16:40:54 2017
+#------------------------------
+	#Reading LearningNetwork.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment d:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "LearningNetwork" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+	#Design creation date: 2017.03.05.15.17.52
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'clk'
+	#3
+unselect comp 'clk'
+	#4
+select -k net 'clk_BUFGP'
+	#5
+unselect net 'clk_BUFGP'
+	#6
+select -k net 'clk_BUFGP/IBUFG'
+	#7
+unselect net 'clk_BUFGP/IBUFG'
+	#8
+select -k net 'clk_BUFGP'
+	#9
+unselect net 'clk_BUFGP'
+	#10
+select -k net 'update_IBUF'
+	#11
+unselect net 'update_IBUF'
+	#12
+select -k net 'update_result'
+	#13
+unselect net 'update_result'
+	#14
+select -k net 'update_result_BUFG'
+	#15
+unselect net 'update_result_BUFG'
+	#16
+select -k net 'update_result'
+	#17
+unselect net 'update_result'
+	#18
+select -k net 'update_result_BUFG'

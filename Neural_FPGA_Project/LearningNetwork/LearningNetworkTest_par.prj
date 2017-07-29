@@ -1,0 +1,2 @@
+vhdl work "netgen/par/LearningNetwork_timesim.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"

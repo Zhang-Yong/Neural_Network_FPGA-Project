@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "E:/Xilinx/Neural_FPGA_Project/Neural_XOR/iseconfig/filter.filter" -ifn "E:/Xilinx/Neural_FPGA_Project/Neural_XOR/Node.xst" -ofn "E:/Xilinx/Neural_FPGA_Project/Neural_XOR/Node.syr" 

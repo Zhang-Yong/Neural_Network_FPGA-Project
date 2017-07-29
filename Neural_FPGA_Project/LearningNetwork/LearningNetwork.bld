@@ -1,0 +1,121 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: d:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -filter
+iseconfig/filter.filter -intstyle ise -dd _ngo -nt timestamp -uc
+LearningNetwork.ucf -p xc6slx9-tqg144-2 LearningNetwork.ngc LearningNetwork.ngd
+
+Reading NGO file
+"E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "LearningNetwork.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "corrOut[4]" LOC = P38;> [LearningNetwork.ucf(6)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "corrOut[3]" LOC = P39;> [LearningNetwork.ucf(7)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "corrOut[2]" LOC = P40;> [LearningNetwork.ucf(8)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "corrOut[1]" LOC = P41;> [LearningNetwork.ucf(9)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "corrOut[0]" LOC = P43;> [LearningNetwork.ucf(10)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Input[1]" LOC = P55;> [LearningNetwork.ucf(11)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Input[0]" LOC = P56;> [LearningNetwork.ucf(12)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Output[4]" LOC = P62;> [LearningNetwork.ucf(14)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Output[3]" LOC = P61;> [LearningNetwork.ucf(15)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Output[2]" LOC = P59;> [LearningNetwork.ucf(16)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Output[1]" LOC = P58;> [LearningNetwork.ucf(17)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Output[0]" LOC = P57;> [LearningNetwork.ucf(18)]' could not be found
+   and so the Locate constraint will be removed.
+
+WARNING:NgdBuild:1012 - The constraint <NET "corrOut[4]" LOC = P38;>
+   [LearningNetwork.ucf(6)] is overridden on the design object corrOut<4> by the
+   constraint <NET "corrOut<4>" LOC = P38;> [LearningNetwork.ucf(52)].
+WARNING:NgdBuild:1012 - The constraint <NET "corrOut[3]" LOC = P39;>
+   [LearningNetwork.ucf(7)] is overridden on the design object corrOut<3> by the
+   constraint <NET "corrOut<3>" LOC = P39;> [LearningNetwork.ucf(51)].
+WARNING:NgdBuild:1012 - The constraint <NET "corrOut[2]" LOC = P40;>
+   [LearningNetwork.ucf(8)] is overridden on the design object corrOut<2> by the
+   constraint <NET "corrOut<2>" LOC = P40;> [LearningNetwork.ucf(50)].
+WARNING:NgdBuild:1012 - The constraint <NET "corrOut[1]" LOC = P41;>
+   [LearningNetwork.ucf(9)] is overridden on the design object corrOut<1> by the
+   constraint <NET "corrOut<1>" LOC = P41;> [LearningNetwork.ucf(49)].
+WARNING:NgdBuild:1012 - The constraint <NET "corrOut[0]" LOC = P43;>
+   [LearningNetwork.ucf(10)] is overridden on the design object corrOut<0> by
+   the constraint <NET "corrOut<0>" LOC = P43;> [LearningNetwork.ucf(47)].
+WARNING:NgdBuild:1012 - The constraint <NET "Input[1]" LOC = P55;>
+   [LearningNetwork.ucf(11)] is overridden on the design object Input<1> by the
+   constraint <NET "Input<1>" LOC = P55;> [LearningNetwork.ucf(46)].
+WARNING:NgdBuild:1012 - The constraint <NET "Input[0]" LOC = P56;>
+   [LearningNetwork.ucf(12)] is overridden on the design object Input<0> by the
+   constraint <NET "Input<0>" LOC = P56;> [LearningNetwork.ucf(45)].
+WARNING:NgdBuild:1012 - The constraint <NET "Output[4]" LOC = P62;>
+   [LearningNetwork.ucf(14)] is overridden on the design object Output<4> by the
+   constraint <NET "Output<4>" LOC = P62;> [LearningNetwork.ucf(44)].
+WARNING:NgdBuild:1012 - The constraint <NET "Output[3]" LOC = P61;>
+   [LearningNetwork.ucf(15)] is overridden on the design object Output<3> by the
+   constraint <NET "Output<3>" LOC = P61;> [LearningNetwork.ucf(56)].
+WARNING:NgdBuild:1012 - The constraint <NET "Output[2]" LOC = P59;>
+   [LearningNetwork.ucf(16)] is overridden on the design object Output<2> by the
+   constraint <NET "Output<2>" LOC = P59;> [LearningNetwork.ucf(55)].
+WARNING:NgdBuild:1012 - The constraint <NET "Output[1]" LOC = P58;>
+   [LearningNetwork.ucf(17)] is overridden on the design object Output<1> by the
+   constraint <NET "Output<1>" LOC = P58;> [LearningNetwork.ucf(54)].
+WARNING:NgdBuild:1012 - The constraint <NET "Output[0]" LOC = P57;>
+   [LearningNetwork.ucf(18)] is overridden on the design object Output<0> by the
+   constraint <NET "Output<0>" LOC = P57;> [LearningNetwork.ucf(53)].
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  24
+
+Total memory usage is 176908 kilobytes
+
+Writing NGD file "LearningNetwork.ngd" ...
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+Writing NGDBUILD log file "LearningNetwork.bld"...

@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 06 16:49:06 2017
+# Process ID: 19624
+# Log file: E:/Xilinx/Neural_FPGA_Project/LearningNetwork/planAhead_run_2/planAhead.log
+# Journal file: E:/Xilinx/Neural_FPGA_Project/LearningNetwork/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/Xilinx/Neural_FPGA_Project/LearningNetwork/pa.fromNcd.tcl
+# create_project -name LearningNetwork -dir "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/planAhead_run_3" -part xc6slx9tqg144-2
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 441.867 ; gain = 62.520
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/Xilinx/Neural_FPGA_Project/LearningNetwork} }
+# set_property target_constrs_file "LearningNetwork.ucf" [current_fileset -constrset]
+Adding file 'E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ucf' to fileset 'constrs_1'
+# add_files [list {LearningNetwork.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LearningNetwork.ngc ...
+WARNING:NetListWriters:298 - No output is written to LearningNetwork.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus weightDeltaKOutNode<23 : 0> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightOut1<5 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod2/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod1/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/multL/posIn2<7 : 1>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mL/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LearningNetwork.edif ...
+ngc2edif: Total memory usage is 91516 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/LearningNetwork.data/cache/LearningNetwork_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/LearningNetwork.data/cache/LearningNetwork_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'LearningNetwork' is not ideal for floorplanning, since the cellview 'LearningNetwork' defined in file 'LearningNetwork.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ucf]
+Finished Parsing UCF File [E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 408c593b
+link_design: Time (s): elapsed = 00:00:46 . Memory (MB): peak = 628.535 ; gain = 185.254
+# read_xdl -file "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ncd"
+Release 14.7 - xdl P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx9.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+   "LearningNetwork" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+Successfully converted design 'E:\Xilinx\Neural_FPGA_Project\LearningNetwork\LearningNetwork.ncd' to 'E:\Xilinx\Neural_FPGA_Project\LearningNetwork\LearningNetwork.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.ncd
+INFO: [Designutils 20-671] Placed 4362 instances
+read_xdl: Time (s): elapsed = 00:00:38 . Memory (MB): peak = 628.535 ; gain = 0.000
+# if {[catch {read_twx -name results_1 -file "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"E:/Xilinx/Neural_FPGA_Project/LearningNetwork/LearningNetwork.twx\": $eInfo"
+# }
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See E:/Xilinx/Neural_FPGA_Project/LearningNetwork\planAhead_pid19624.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Mar 06 17:04:27 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

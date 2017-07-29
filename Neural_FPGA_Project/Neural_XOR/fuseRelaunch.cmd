@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xilinx/Neural_FPGA_Project/Neural_XOR/Node_test_isim_beh.exe" -prj "E:/Xilinx/Neural_FPGA_Project/Neural_XOR/Node_test_beh.prj" "work.Node_test" 

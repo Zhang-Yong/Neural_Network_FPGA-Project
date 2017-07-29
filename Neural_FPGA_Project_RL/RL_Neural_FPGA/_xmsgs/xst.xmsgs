@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd" Line 85: Actual for formal port <arg fmt="%s" index="1">input</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd" Line 102: Actual for formal port <arg fmt="%s" index="1">input</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd" Line 119: Actual for formal port <arg fmt="%s" index="1">input</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd" Line 135: Actual for formal port <arg fmt="%s" index="1">input</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 166: <arg fmt="%s" index="1">w0stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 167: <arg fmt="%s" index="1">w1stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 168: <arg fmt="%s" index="1">w2stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 169: <arg fmt="%s" index="1">w3stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 170: <arg fmt="%s" index="1">w4stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 171: <arg fmt="%s" index="1">w5stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 172: <arg fmt="%s" index="1">w6stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 173: <arg fmt="%s" index="1">w7stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 174: <arg fmt="%s" index="1">weightin0</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 175: <arg fmt="%s" index="1">weightin1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 176: <arg fmt="%s" index="1">weightin2</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 177: <arg fmt="%s" index="1">weightin3</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 178: <arg fmt="%s" index="1">weightin4</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 179: <arg fmt="%s" index="1">weightin5</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 180: <arg fmt="%s" index="1">weightin6</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd" Line 181: <arg fmt="%s" index="1">weightin7</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 197: <arg fmt="%s" index="1">w0stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 198: <arg fmt="%s" index="1">w1stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 199: <arg fmt="%s" index="1">w2stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 200: <arg fmt="%s" index="1">w3stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 201: <arg fmt="%s" index="1">w4stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 202: <arg fmt="%s" index="1">w5stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 203: <arg fmt="%s" index="1">w6stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 204: <arg fmt="%s" index="1">w7stor</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 205: <arg fmt="%s" index="1">weightin0</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 206: <arg fmt="%s" index="1">weightin1</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 207: <arg fmt="%s" index="1">weightin2</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 208: <arg fmt="%s" index="1">weightin3</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 209: <arg fmt="%s" index="1">weightin4</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 210: <arg fmt="%s" index="1">weightin5</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 211: <arg fmt="%s" index="1">weightin6</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 212: <arg fmt="%s" index="1">weightin7</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 45: Net &lt;<arg fmt="%s" index="1">deltaKTemp[7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd" Line 57: Net &lt;<arg fmt="%s" index="1">tempOut[4]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">81</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod1</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">88</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod2</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">95</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod3</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">102</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod4</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">109</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod5</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">116</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod6</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%d" index="2">123</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod7</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateHidden</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod3</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateOutput</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">OutputNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%d" index="2">136</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod4</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateOutput</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">OutputNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod5</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateOutput</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">OutputNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%d" index="2">150</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod6</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateOutput</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">OutputNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%d" index="2">157</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">weightUpdateMod7</arg>&gt; of block &lt;<arg fmt="%s" index="4">weightUpdateOutput</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">OutputNode</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">73</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">73</arg>: Output port &lt;<arg fmt="%s" index="3">testOutWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">91</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">91</arg>: Output port &lt;<arg fmt="%s" index="3">testOutWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mR</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">testOutWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mR</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">deltaK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">t</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">t</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\LearningNetwork.vhd</arg>&quot; line <arg fmt="%s" index="2">125</arg>: Output port &lt;<arg fmt="%s" index="3">testOutWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">t</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">81</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">88</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\HiddenNode.vhd</arg>&quot; line <arg fmt="%s" index="2">123</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w1Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sigIn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">115</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">115</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">122</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">122</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">129</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">129</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">129</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">136</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">136</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">136</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">143</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">143</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">143</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">150</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">weightUpdateTest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">leftProd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Xilinx\Neural_FPGA_Project_RL\OutputNode.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">newWeight</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">weightUpdateMod7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">deltaKTemp</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tempOut</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">weightDKMult3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">t</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">weightDKMult4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">t</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">weightDKMult5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">t</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">weightDKMult6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">t</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">weightDKMult7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">t</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mL</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;w4Stor_1&gt; &lt;w4Stor_2&gt; &lt;w4Stor_3&gt; &lt;w4Stor_4&gt; &lt;w4Stor_5&gt; &lt;w4Stor_6&gt; &lt;w4Stor_7&gt; &lt;w2Stor_0&gt; &lt;w2Stor_1&gt; &lt;w2Stor_2&gt; &lt;w2Stor_3&gt; &lt;w2Stor_4&gt; &lt;w2Stor_5&gt; &lt;w2Stor_6&gt; &lt;w2Stor_7&gt; &lt;w3Stor_0&gt; &lt;w3Stor_1&gt; &lt;w3Stor_2&gt; &lt;w3Stor_3&gt; &lt;w3Stor_4&gt; &lt;w3Stor_5&gt; &lt;w3Stor_6&gt; &lt;w3Stor_7&gt; &lt;w7Stor_0&gt; &lt;w7Stor_1&gt; &lt;w7Stor_2&gt; &lt;w7Stor_3&gt; &lt;w7Stor_4&gt; &lt;w7Stor_5&gt; &lt;w7Stor_6&gt; &lt;w7Stor_7&gt; &lt;w5Stor_0&gt; &lt;w5Stor_1&gt; &lt;w5Stor_2&gt; &lt;w5Stor_3&gt; &lt;w5Stor_4&gt; &lt;w5Stor_5&gt; &lt;w5Stor_6&gt; &lt;w5Stor_7&gt; &lt;w6Stor_0&gt; &lt;w6Stor_1&gt; &lt;w6Stor_2&gt; &lt;w6Stor_3&gt; &lt;w6Stor_4&gt; &lt;w6Stor_5&gt; &lt;w6Stor_6&gt; &lt;w6Stor_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mL</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;weightIn2_1&gt; &lt;weightIn2_2&gt; &lt;weightIn2_3&gt; &lt;weightIn2_4&gt; &lt;weightIn2_5&gt; &lt;weightIn2_6&gt; &lt;weightIn2_7&gt; &lt;weightIn3_0&gt; &lt;weightIn3_1&gt; &lt;weightIn3_2&gt; &lt;weightIn3_3&gt; &lt;weightIn3_4&gt; &lt;weightIn3_5&gt; &lt;weightIn3_6&gt; &lt;weightIn3_7&gt; &lt;weightIn6_0&gt; &lt;weightIn6_1&gt; &lt;weightIn6_2&gt; &lt;weightIn6_3&gt; &lt;weightIn6_4&gt; &lt;weightIn6_5&gt; &lt;weightIn6_6&gt; &lt;weightIn6_7&gt; &lt;weightIn4_0&gt; &lt;weightIn4_1&gt; &lt;weightIn4_2&gt; &lt;weightIn4_3&gt; &lt;weightIn4_4&gt; &lt;weightIn4_5&gt; &lt;weightIn4_6&gt; &lt;weightIn4_7&gt; &lt;weightIn5_0&gt; &lt;weightIn5_1&gt; &lt;weightIn5_2&gt; &lt;weightIn5_3&gt; &lt;weightIn5_4&gt; &lt;weightIn5_5&gt; &lt;weightIn5_6&gt; &lt;weightIn5_7&gt; &lt;weightIn7_0&gt; &lt;weightIn7_1&gt; &lt;weightIn7_2&gt; &lt;weightIn7_3&gt; &lt;weightIn7_4&gt; &lt;weightIn7_5&gt; &lt;weightIn7_6&gt; &lt;weightIn7_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;w4Stor_1&gt; &lt;w4Stor_2&gt; &lt;w4Stor_3&gt; &lt;w4Stor_4&gt; &lt;w4Stor_5&gt; &lt;w4Stor_6&gt; &lt;w4Stor_7&gt; &lt;w2Stor_0&gt; &lt;w2Stor_1&gt; &lt;w2Stor_2&gt; &lt;w2Stor_3&gt; &lt;w2Stor_4&gt; &lt;w2Stor_5&gt; &lt;w2Stor_6&gt; &lt;w2Stor_7&gt; &lt;w3Stor_0&gt; &lt;w3Stor_1&gt; &lt;w3Stor_2&gt; &lt;w3Stor_3&gt; &lt;w3Stor_4&gt; &lt;w3Stor_5&gt; &lt;w3Stor_6&gt; &lt;w3Stor_7&gt; &lt;w7Stor_0&gt; &lt;w7Stor_1&gt; &lt;w7Stor_2&gt; &lt;w7Stor_3&gt; &lt;w7Stor_4&gt; &lt;w7Stor_5&gt; &lt;w7Stor_6&gt; &lt;w7Stor_7&gt; &lt;w5Stor_0&gt; &lt;w5Stor_1&gt; &lt;w5Stor_2&gt; &lt;w5Stor_3&gt; &lt;w5Stor_4&gt; &lt;w5Stor_5&gt; &lt;w5Stor_6&gt; &lt;w5Stor_7&gt; &lt;w6Stor_0&gt; &lt;w6Stor_1&gt; &lt;w6Stor_2&gt; &lt;w6Stor_3&gt; &lt;w6Stor_4&gt; &lt;w6Stor_5&gt; &lt;w6Stor_6&gt; &lt;w6Stor_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;weightIn2_1&gt; &lt;weightIn2_2&gt; &lt;weightIn2_3&gt; &lt;weightIn2_4&gt; &lt;weightIn2_5&gt; &lt;weightIn2_6&gt; &lt;weightIn2_7&gt; &lt;weightIn3_0&gt; &lt;weightIn3_1&gt; &lt;weightIn3_2&gt; &lt;weightIn3_3&gt; &lt;weightIn3_4&gt; &lt;weightIn3_5&gt; &lt;weightIn3_6&gt; &lt;weightIn3_7&gt; &lt;weightIn6_0&gt; &lt;weightIn6_1&gt; &lt;weightIn6_2&gt; &lt;weightIn6_3&gt; &lt;weightIn6_4&gt; &lt;weightIn6_5&gt; &lt;weightIn6_6&gt; &lt;weightIn6_7&gt; &lt;weightIn4_0&gt; &lt;weightIn4_1&gt; &lt;weightIn4_2&gt; &lt;weightIn4_3&gt; &lt;weightIn4_4&gt; &lt;weightIn4_5&gt; &lt;weightIn4_6&gt; &lt;weightIn4_7&gt; &lt;weightIn5_0&gt; &lt;weightIn5_1&gt; &lt;weightIn5_2&gt; &lt;weightIn5_3&gt; &lt;weightIn5_4&gt; &lt;weightIn5_5&gt; &lt;weightIn5_6&gt; &lt;weightIn5_7&gt; &lt;weightIn7_0&gt; &lt;weightIn7_1&gt; &lt;weightIn7_2&gt; &lt;weightIn7_3&gt; &lt;weightIn7_4&gt; &lt;weightIn7_5&gt; &lt;weightIn7_6&gt; &lt;weightIn7_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;w4Stor_1&gt; &lt;w4Stor_2&gt; &lt;w4Stor_3&gt; &lt;w4Stor_4&gt; &lt;w4Stor_5&gt; &lt;w4Stor_6&gt; &lt;w4Stor_7&gt; &lt;w2Stor_0&gt; &lt;w2Stor_1&gt; &lt;w2Stor_2&gt; &lt;w2Stor_3&gt; &lt;w2Stor_4&gt; &lt;w2Stor_5&gt; &lt;w2Stor_6&gt; &lt;w2Stor_7&gt; &lt;w3Stor_0&gt; &lt;w3Stor_1&gt; &lt;w3Stor_2&gt; &lt;w3Stor_3&gt; &lt;w3Stor_4&gt; &lt;w3Stor_5&gt; &lt;w3Stor_6&gt; &lt;w3Stor_7&gt; &lt;w7Stor_0&gt; &lt;w7Stor_1&gt; &lt;w7Stor_2&gt; &lt;w7Stor_3&gt; &lt;w7Stor_4&gt; &lt;w7Stor_5&gt; &lt;w7Stor_6&gt; &lt;w7Stor_7&gt; &lt;w5Stor_0&gt; &lt;w5Stor_1&gt; &lt;w5Stor_2&gt; &lt;w5Stor_3&gt; &lt;w5Stor_4&gt; &lt;w5Stor_5&gt; &lt;w5Stor_6&gt; &lt;w5Stor_7&gt; &lt;w6Stor_0&gt; &lt;w6Stor_1&gt; &lt;w6Stor_2&gt; &lt;w6Stor_3&gt; &lt;w6Stor_4&gt; &lt;w6Stor_5&gt; &lt;w6Stor_6&gt; &lt;w6Stor_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;weightIn2_1&gt; &lt;weightIn2_2&gt; &lt;weightIn2_3&gt; &lt;weightIn2_4&gt; &lt;weightIn2_5&gt; &lt;weightIn2_6&gt; &lt;weightIn2_7&gt; &lt;weightIn3_0&gt; &lt;weightIn3_1&gt; &lt;weightIn3_2&gt; &lt;weightIn3_3&gt; &lt;weightIn3_4&gt; &lt;weightIn3_5&gt; &lt;weightIn3_6&gt; &lt;weightIn3_7&gt; &lt;weightIn6_0&gt; &lt;weightIn6_1&gt; &lt;weightIn6_2&gt; &lt;weightIn6_3&gt; &lt;weightIn6_4&gt; &lt;weightIn6_5&gt; &lt;weightIn6_6&gt; &lt;weightIn6_7&gt; &lt;weightIn4_0&gt; &lt;weightIn4_1&gt; &lt;weightIn4_2&gt; &lt;weightIn4_3&gt; &lt;weightIn4_4&gt; &lt;weightIn4_5&gt; &lt;weightIn4_6&gt; &lt;weightIn4_7&gt; &lt;weightIn5_0&gt; &lt;weightIn5_1&gt; &lt;weightIn5_2&gt; &lt;weightIn5_3&gt; &lt;weightIn5_4&gt; &lt;weightIn5_5&gt; &lt;weightIn5_6&gt; &lt;weightIn5_7&gt; &lt;weightIn7_0&gt; &lt;weightIn7_1&gt; &lt;weightIn7_2&gt; &lt;weightIn7_3&gt; &lt;weightIn7_4&gt; &lt;weightIn7_5&gt; &lt;weightIn7_6&gt; &lt;weightIn7_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">t</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">39 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;w3Stor_1&gt; &lt;w3Stor_2&gt; &lt;w3Stor_3&gt; &lt;w3Stor_4&gt; &lt;w3Stor_5&gt; &lt;w3Stor_6&gt; &lt;w3Stor_7&gt; &lt;w6Stor_0&gt; &lt;w6Stor_1&gt; &lt;w6Stor_2&gt; &lt;w6Stor_3&gt; &lt;w6Stor_4&gt; &lt;w6Stor_5&gt; &lt;w6Stor_6&gt; &lt;w6Stor_7&gt; &lt;w4Stor_0&gt; &lt;w4Stor_1&gt; &lt;w4Stor_2&gt; &lt;w4Stor_3&gt; &lt;w4Stor_4&gt; &lt;w4Stor_5&gt; &lt;w4Stor_6&gt; &lt;w4Stor_7&gt; &lt;w5Stor_0&gt; &lt;w5Stor_1&gt; &lt;w5Stor_2&gt; &lt;w5Stor_3&gt; &lt;w5Stor_4&gt; &lt;w5Stor_5&gt; &lt;w5Stor_6&gt; &lt;w5Stor_7&gt; &lt;w7Stor_0&gt; &lt;w7Stor_1&gt; &lt;w7Stor_2&gt; &lt;w7Stor_3&gt; &lt;w7Stor_4&gt; &lt;w7Stor_5&gt; &lt;w7Stor_6&gt; &lt;w7Stor_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">t</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">39 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;weightIn3_1&gt; &lt;weightIn3_2&gt; &lt;weightIn3_3&gt; &lt;weightIn3_4&gt; &lt;weightIn3_5&gt; &lt;weightIn3_6&gt; &lt;weightIn3_7&gt; &lt;weightIn6_0&gt; &lt;weightIn6_1&gt; &lt;weightIn6_2&gt; &lt;weightIn6_3&gt; &lt;weightIn6_4&gt; &lt;weightIn6_5&gt; &lt;weightIn6_6&gt; &lt;weightIn6_7&gt; &lt;weightIn4_0&gt; &lt;weightIn4_1&gt; &lt;weightIn4_2&gt; &lt;weightIn4_3&gt; &lt;weightIn4_4&gt; &lt;weightIn4_5&gt; &lt;weightIn4_6&gt; &lt;weightIn4_7&gt; &lt;weightIn5_0&gt; &lt;weightIn5_1&gt; &lt;weightIn5_2&gt; &lt;weightIn5_3&gt; &lt;weightIn5_4&gt; &lt;weightIn5_5&gt; &lt;weightIn5_6&gt; &lt;weightIn5_7&gt; &lt;weightIn7_0&gt; &lt;weightIn7_1&gt; &lt;weightIn7_2&gt; &lt;weightIn7_3&gt; &lt;weightIn7_4&gt; &lt;weightIn7_5&gt; &lt;weightIn7_6&gt; &lt;weightIn7_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">t</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">t</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w2Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w3Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w4Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w5Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w6Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">w7Stor</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">HiddenNode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn1_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn2_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HiddenNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w6Stor_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w7Stor_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w3Stor_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w4Stor_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">w5Stor_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn6_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn7_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn3_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn4_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">weightIn5_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OutputNode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">corrOut_result_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">corrOut_result_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">corrOut_result_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">corrOut_result_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">corrOut_result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">t/weightDKMult3/Mmult_multRes</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">t/weightDKMult4/Mmult_multRes</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">t/weightDKMult5/Mmult_multRes</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">t/weightDKMult6/Mmult_multRes</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">t/weightDKMult7/Mmult_multRes</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LearningNetwork</arg>&gt;.
+</msg>
+
+</messages>
+

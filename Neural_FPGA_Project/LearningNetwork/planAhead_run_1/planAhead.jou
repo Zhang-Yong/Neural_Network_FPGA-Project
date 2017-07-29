@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 02 17:10:39 2017
+# Process ID: 19092
+# Log file: E:/Xilinx/Neural_FPGA_Project/LearningNetwork/planAhead_run_1/planAhead.log
+# Journal file: E:/Xilinx/Neural_FPGA_Project/LearningNetwork/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Xilinx/Neural_FPGA_Project/LearningNetwork/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P38 [get_ports {corrOut[4]}]
+endgroup
+startgroup
+set_property package_pin P39 [get_ports {corrOut[3]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {corrOut[2]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {corrOut[1]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {corrOut[0]}]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports {Input[1]}]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports {Input[0]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports update]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports {Output[4]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports {Output[3]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {Output[2]}]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports {Output[1]}]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports {Output[0]}]
+endgroup
+save_constraints

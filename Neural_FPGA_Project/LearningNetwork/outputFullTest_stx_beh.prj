@@ -1,0 +1,7 @@
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/multiplier.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/weightUpdateOutput.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/sigDerivative.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/OutputNode.vhd"
+vhdl isim_temp "../Hardware_Neural_Net-master/Node/Node/outputFullTest.vhd"

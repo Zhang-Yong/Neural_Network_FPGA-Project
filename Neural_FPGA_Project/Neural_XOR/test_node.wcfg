@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xilinx/Neural_FPGA_Project/Neural_XOR/Node_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="node_test" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/node_test/input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input[9:0]</obj_property>
+      <obj_property name="ObjectShortName">input[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[4:0]</obj_property>
+      <obj_property name="ObjectShortName">output[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/sigintemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sigintemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sigintemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/activationval" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">activationval[4:0]</obj_property>
+      <obj_property name="ObjectShortName">activationval[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/tempout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tempout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/o0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/o1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/o2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/o3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/o4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight1/activationval" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">activationval[4:0]</obj_property>
+      <obj_property name="ObjectShortName">activationval[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight1/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight1/sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight1/tempout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tempout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight0/weight" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">weight[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight1/weight" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">weight[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/node_test/uut/weight2/weight" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">weight[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[7:0]</obj_property>
+   </wvobject>
+</wave_config>

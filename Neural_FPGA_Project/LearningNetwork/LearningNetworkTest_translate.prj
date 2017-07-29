@@ -1,0 +1,2 @@
+vhdl work "netgen/translate/LearningNetwork_translate.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"

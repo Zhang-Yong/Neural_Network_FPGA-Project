@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/outputFullTest_isim_beh.exe" -prj "E:/Xilinx/Neural_FPGA_Project/LearningNetwork/outputFullTest_beh.prj" "work.outputFullTest" 

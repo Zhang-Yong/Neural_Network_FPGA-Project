@@ -1,0 +1,90 @@
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/02
+NET "update" TNM_NET = "update";
+
+# PlanAhead Generated physical constraints 
+NET "corrOut[4]" LOC = P38;
+NET "corrOut[3]" LOC = P39;
+NET "corrOut[2]" LOC = P40;
+NET "corrOut[1]" LOC = P41;
+NET "corrOut[0]" LOC = P43;
+NET "Input[1]" LOC = P55;
+NET "Input[0]" LOC = P56;
+NET "update" LOC = P51;
+NET "Output[4]" LOC = P62;
+NET "Output[3]" LOC = P61;
+NET "Output[2]" LOC = P59;
+NET "Output[1]" LOC = P58;
+NET "Output[0]" LOC = P57;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+NET "clk" TNM_NET = clk;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+INST "corrOut<0>" TNM = corrOut_Timing_Group;
+INST "corrOut<1>" TNM = corrOut_Timing_Group;
+INST "corrOut<2>" TNM = corrOut_Timing_Group;
+INST "corrOut<3>" TNM = corrOut_Timing_Group;
+INST "corrOut<4>" TNM = corrOut_Timing_Group;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+INST "Input<0>" TNM = Input_Timing_Group;
+INST "Input<1>" TNM = Input_Timing_Group;
+INST "Output<0>" TNM = Output_Timing_Group;
+INST "Output<1>" TNM = Output_Timing_Group;
+INST "Output<2>" TNM = Output_Timing_Group;
+INST "Output<3>" TNM = Output_Timing_Group;
+INST "Output<4>" TNM = Output_Timing_Group;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+NET "update" TNM_NET = update;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/05
+TIMESPEC TS_clk = PERIOD "clk" 100 ns HIGH 50% INPUT_JITTER 60 ps;
+#pin2ucf - Thu Mar 09 19:34:31 2017
+#The following constraints were newly added
+NET "Output<4>" LOC = P62;
+NET "Input<0>" LOC = P56;
+NET "Input<1>" LOC = P55;
+NET "corrOut<0>" LOC = P43;
+NET "clk" LOC = P21;
+NET "corrOut<1>" LOC = P41;
+NET "corrOut<2>" LOC = P40;
+NET "corrOut<3>" LOC = P39;
+NET "corrOut<4>" LOC = P38;
+NET "Output<0>" LOC = P57;
+NET "Output<1>" LOC = P58;
+NET "Output<2>" LOC = P59;
+NET "Output<3>" LOC = P61;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/10
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/10
+OFFSET = IN 6 ns VALID 100 ns BEFORE "clk" RISING;
+INST "corrOut<0>" TNM = corrOut;
+INST "corrOut<1>" TNM = corrOut;
+INST "corrOut<2>" TNM = corrOut;
+INST "corrOut<3>" TNM = corrOut;
+INST "corrOut<4>" TNM = corrOut;
+TIMEGRP "corrOut" OFFSET = IN 10 ns VALID 100 ns BEFORE "clk" RISING;
+INST "Input<0>" TNM = Input;
+INST "Input<1>" TNM = Input;
+TIMEGRP "Input" OFFSET = IN 10 ns VALID 100 ns BEFORE "clk" RISING;
+TIMEGRP "update" OFFSET = IN 10 ns VALID 100 ns BEFORE "clk" RISING;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/10
+OFFSET = OUT 100 ns AFTER "clk";
+INST "Output<0>" TNM = Output;
+INST "Output<1>" TNM = Output;
+INST "Output<2>" TNM = Output;
+INST "Output<3>" TNM = Output;
+INST "Output<4>" TNM = Output;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/13
+TIMEGRP "Output" OFFSET = OUT 50 ns AFTER "clk";
+#2 clk domain 
+TIMESPEC TS_From_CLK_TO_Update = FROM "clk" TO "update" 70 ns;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/14
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/14
+TIMESPEC TS_update = PERIOD "update" 200 ns HIGH 50% INPUT_JITTER 100 ps;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/14
+OFFSET = IN 6 ns VALID 100 ns BEFORE "update" RISING;
+OFFSET = IN 6 ns VALID 100 ns BEFORE "update" FALLING;
+OFFSET = OUT 50 ns AFTER "update";
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/14
+OFFSET = OUT 50 ns AFTER "update" RISING;
+OFFSET = OUT 50 ns AFTER "update" FALLING;

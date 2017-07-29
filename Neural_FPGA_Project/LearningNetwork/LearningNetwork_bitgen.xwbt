@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Xilinx\Neural_FPGA_Project\LearningNetwork\LearningNetwork.ncd
+OUTFILE=E:\Xilinx\Neural_FPGA_Project\LearningNetwork\LearningNetwork.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=E:\Xilinx\Neural_FPGA_Project\LearningNetwork
+LICENSE=WebPack
+USER_INFO=211194131_0_0_176

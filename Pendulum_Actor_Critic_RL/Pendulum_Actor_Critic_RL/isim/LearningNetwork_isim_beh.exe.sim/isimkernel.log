@@ -1,0 +1,29 @@
+Command line:
+   LearningNetwork_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59491
+
+Sat Mar 25 22:53:09 2017
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 679.469 Meg
+
+ Total Signals          : 1541
+ Total Nets             : 9069
+ Total Signal Drivers   : 886
+ Total Blocks           : 143
+ Total Primitive Blocks : 106
+ Total Processes        : 825
+ Total Traceable Variables  : 53
+ Total Scalar Nets and Variables : 9844
+Total Line Count : 955
+
+ Total Simulation Time: 0.124801 sec
+
+ Current Memory Usage: 994.042 Meg
+
+Sat Mar 25 22:53:41 2017
+

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LearningNetwork.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LearningNetwork.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LearningNetwork.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_IBS" xil_pn:name="LearningNetwork.ibs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PIN2UCF_REPORT" xil_pn:name="LearningNetwork.lck"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LearningNetwork.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LearningNetwork.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LearningNetwork.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LearningNetwork.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LearningNetwork.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LearningNetwork.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LearningNetwork.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LearningNetwork.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetwork.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LearningNetwork.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LearningNetwork.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LearningNetwork.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LearningNetwork.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LearningNetwork.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LearningNetwork.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="LearningNetwork.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LearningNetwork.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LearningNetwork.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetworkTest_isim_beh.exe"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetworkTest_isim_map.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LearningNetworkTest_isim_map.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetworkTest_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LearningNetworkTest_isim_par.wdb"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetworkTest_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LearningNetworkTest_isim_translate.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_map.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_par.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_stx_map.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_stx_par.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_stx_translate.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetworkTest_translate.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LearningNetwork_envsettings.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="LearningNetwork_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LearningNetwork_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetwork_isim_beh.exe"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LearningNetwork_isim_par.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LearningNetwork_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LearningNetwork_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LearningNetwork_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LearningNetwork_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LearningNetwork_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LearningNetwork_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LearningNetwork_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LearningNetwork_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LearningNetwork_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LearningNetwork_preroute.twr" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LearningNetwork_preroute.twx" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetwork_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LearningNetwork_stx_par.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LearningNetwork_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LearningNetwork_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LearningNetwork_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LearningNetwork_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+      <branch xil_pn:name="PostMapSimulation"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="learningnetwork.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="learningnetwork.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="learningnetwork.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/LearningNetwork_map.nlf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/LearningNetwork_map.sdf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/map/LearningNetwork_map.vhd"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/LearningNetwork_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/LearningNetwork_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/par/LearningNetwork_timesim.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/LearningNetwork_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/LearningNetwork_synthesis.vhd"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/LearningNetwork_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/translate/LearningNetwork_translate.vhd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="outputFullTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="outputFullTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="outputFullTest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="outputFullTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+      <branch xil_pn:name="PostMapSimulation"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1488792685" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="1321705353062746806" xil_pn:start_ts="1488792684">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488116664" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1488116664">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928022" xil_pn:in_ck="-2379031071795209164" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1489928022">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/HiddenNode.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetwork.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/OutputNode.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/multiplier.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/outputFullTest.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/sigDerivative.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/weightUpdateHidden.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/weightUpdateOutput.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928029" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4449127326330025946" xil_pn:start_ts="1489928029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928029" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1027071792818667432" xil_pn:start_ts="1489928029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488116695" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3583524343945044714" xil_pn:start_ts="1488116695">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928029" xil_pn:in_ck="-2379031071795209164" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1489928029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/HiddenNode.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetwork.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/OutputNode.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/multiplier.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/outputFullTest.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/sigDerivative.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/weightUpdateHidden.vhd"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/weightUpdateOutput.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928037" xil_pn:in_ck="-2379031071795209164" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1693217262669190420" xil_pn:start_ts="1489928029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="outputFullTest_beh.prj"/>
+      <outfile xil_pn:name="outputFullTest_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1489928038" xil_pn:in_ck="-3005146943115898203" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8625000524838464671" xil_pn:start_ts="1489928037">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="outputFullTest_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7968383008967753115" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3583524343945044714" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6114623246124272419" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489486036" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-997851773686019852" xil_pn:start_ts="1489486036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489497034" xil_pn:in_ck="-636778891691998552" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1977788973057499581" xil_pn:start_ts="1489496992">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="LearningNetwork.lso"/>
+      <outfile xil_pn:name="LearningNetwork.ngc"/>
+      <outfile xil_pn:name="LearningNetwork.ngr"/>
+      <outfile xil_pn:name="LearningNetwork.prj"/>
+      <outfile xil_pn:name="LearningNetwork.stx"/>
+      <outfile xil_pn:name="LearningNetwork.syr"/>
+      <outfile xil_pn:name="LearningNetwork.xst"/>
+      <outfile xil_pn:name="LearningNetworkTest_map.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_par.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_stx_beh.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_stx_map.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_stx_par.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_stx_translate.prj"/>
+      <outfile xil_pn:name="LearningNetworkTest_translate.prj"/>
+      <outfile xil_pn:name="LearningNetwork_stx_beh.prj"/>
+      <outfile xil_pn:name="LearningNetwork_stx_par.prj"/>
+      <outfile xil_pn:name="LearningNetwork_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499058" xil_pn:in_ck="3071397917527134406" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3877310130658768498" xil_pn:start_ts="1489499058">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499069" xil_pn:in_ck="8381072114227926086" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-780935201399797355" xil_pn:start_ts="1489499058">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LearningNetwork.bld"/>
+      <outfile xil_pn:name="LearningNetwork.ngd"/>
+      <outfile xil_pn:name="LearningNetwork_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499127" xil_pn:in_ck="2666214721226801831" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1448924893915930207" xil_pn:start_ts="1489499076">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LearningNetwork.pcf"/>
+      <outfile xil_pn:name="LearningNetwork_map.map"/>
+      <outfile xil_pn:name="LearningNetwork_map.mrp"/>
+      <outfile xil_pn:name="LearningNetwork_map.ncd"/>
+      <outfile xil_pn:name="LearningNetwork_map.ngm"/>
+      <outfile xil_pn:name="LearningNetwork_map.xrpt"/>
+      <outfile xil_pn:name="LearningNetwork_summary.xml"/>
+      <outfile xil_pn:name="LearningNetwork_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499411" xil_pn:in_ck="-6820956640478159584" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1489499351">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LearningNetwork.ncd"/>
+      <outfile xil_pn:name="LearningNetwork.pad"/>
+      <outfile xil_pn:name="LearningNetwork.par"/>
+      <outfile xil_pn:name="LearningNetwork.ptwx"/>
+      <outfile xil_pn:name="LearningNetwork.unroutes"/>
+      <outfile xil_pn:name="LearningNetwork.xpi"/>
+      <outfile xil_pn:name="LearningNetwork_pad.csv"/>
+      <outfile xil_pn:name="LearningNetwork_pad.txt"/>
+      <outfile xil_pn:name="LearningNetwork_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1488871468" xil_pn:in_ck="3071397917527126781" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6456494387431822541" xil_pn:start_ts="1488871435">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LearningNetwork.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="learningnetwork.bgn"/>
+      <outfile xil_pn:name="learningnetwork.bit"/>
+      <outfile xil_pn:name="learningnetwork.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1489060030" xil_pn:in_ck="3071397917527126781" xil_pn:name="TRANEXT_createIBISModel_spartan6" xil_pn:prop_ck="6204026471030844027" xil_pn:start_ts="1489060018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="LearningNetwork.ibs"/>
+    </transform>
+    <transform xil_pn:end_ts="1488790178" xil_pn:in_ck="710883575283587235" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1488790176">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1489059710" xil_pn:in_ck="710883575283587235" xil_pn:name="TRAN_backAnnoPinLocations" xil_pn:prop_ck="3071397917527134406" xil_pn:start_ts="1489059704">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="LearningNetwork.lck"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499644" xil_pn:in_ck="3071397917527126781" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="3307997467577952660" xil_pn:start_ts="1489499607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/LearningNetwork_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/LearningNetwork_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/LearningNetwork_timesim.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499644" xil_pn:in_ck="-9059547722604906878" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1489499644">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"/>
+      <outfile xil_pn:name="netgen/par/LearningNetwork_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/LearningNetwork_timesim.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499797" xil_pn:in_ck="8181880633381690212" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="-2902300000859688416" xil_pn:start_ts="1489499644">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_par.exe"/>
+      <outfile xil_pn:name="LearningNetworkTest_par.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499798" xil_pn:in_ck="-6853930364633727750" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="-4060020691103539926" xil_pn:start_ts="1489499797">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_par.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499411" xil_pn:in_ck="710883575283587235" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1489499388">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="LearningNetwork.twr"/>
+      <outfile xil_pn:name="LearningNetwork.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1489396427" xil_pn:in_ck="-3454808692264215782" xil_pn:name="TRAN_postMapSimModel" xil_pn:prop_ck="-533489517363051974" xil_pn:start_ts="1489396392">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/map/LearningNetwork_map.nlf"/>
+      <outfile xil_pn:name="netgen/map/LearningNetwork_map.sdf"/>
+      <outfile xil_pn:name="netgen/map/LearningNetwork_map.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489052161" xil_pn:in_ck="7853157464539436996" xil_pn:name="TRAN_copyPost-MapAbstractToPreSimulation" xil_pn:start_ts="1489052161">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"/>
+      <outfile xil_pn:name="netgen/map/LearningNetwork_map.sdf"/>
+      <outfile xil_pn:name="netgen/map/LearningNetwork_map.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489052331" xil_pn:in_ck="790743477028534117" xil_pn:name="TRAN_ISimulatePostMapModelRunFuse" xil_pn:prop_ck="-2902300000859688416" xil_pn:start_ts="1489052161">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_map.exe"/>
+      <outfile xil_pn:name="LearningNetworkTest_map.prj"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1489052332" xil_pn:in_ck="-5643872918244759208" xil_pn:name="TRAN_ISimulatePostMapModel" xil_pn:prop_ck="8828078853006436841" xil_pn:start_ts="1489052331">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_map.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489499150" xil_pn:in_ck="-6820956640478159584" xil_pn:name="TRAN_preRouteTrce" xil_pn:prop_ck="722859607460791352" xil_pn:start_ts="1489499127">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LearningNetwork_preroute.twr"/>
+      <outfile xil_pn:name="LearningNetwork_preroute.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1489556553" xil_pn:in_ck="2666214721226801831" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1489556551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1489396285" xil_pn:in_ck="3071397917527126913" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-8688311566527061717" xil_pn:start_ts="1489396277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/translate/LearningNetwork_translate.nlf"/>
+      <outfile xil_pn:name="netgen/translate/LearningNetwork_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489051767" xil_pn:in_ck="2983419134632866757" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1489051767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Hardware_Neural_Net-master/Node/Node/LearningNetworkTest.vhd"/>
+      <outfile xil_pn:name="netgen/translate/LearningNetwork_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489051857" xil_pn:in_ck="2983419134632866757" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="-2902300000859688416" xil_pn:start_ts="1489051767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_translate.exe"/>
+      <outfile xil_pn:name="LearningNetworkTest_translate.prj"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1489051858" xil_pn:in_ck="-4280232556412078584" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="-2816980415823057093" xil_pn:start_ts="1489051857">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="LearningNetworkTest_isim_translate.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1489111049" xil_pn:in_ck="3071397917527126912" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="2859821155010844464" xil_pn:start_ts="1489111045">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/LearningNetwork_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/LearningNetwork_synthesis.vhd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

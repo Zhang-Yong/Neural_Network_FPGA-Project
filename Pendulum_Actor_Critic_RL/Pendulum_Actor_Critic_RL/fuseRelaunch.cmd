@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xilinx/Pendulum_Actor_Critic_RL/Pendulum_Actor_Critic_RL/ReplayBuffer_tb_isim_beh.exe" -prj "E:/Xilinx/Pendulum_Actor_Critic_RL/Pendulum_Actor_Critic_RL/ReplayBuffer_tb_beh.prj" "work.ReplayBuffer_tb" 

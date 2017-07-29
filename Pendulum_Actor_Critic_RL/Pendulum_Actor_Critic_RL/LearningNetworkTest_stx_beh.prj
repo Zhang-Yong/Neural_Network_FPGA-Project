@@ -1,0 +1,8 @@
+vhdl isim_temp "../multiplier.vhd"
+vhdl isim_temp "../weightUpdateOutput.vhd"
+vhdl isim_temp "../weightUpdateHidden.vhd"
+vhdl isim_temp "../WeightMult.vhd"
+vhdl isim_temp "../OutputNode.vhd"
+vhdl isim_temp "../HiddenNode.vhd"
+vhdl isim_temp "../LearningNetwork.vhd"
+vhdl isim_temp "../LearningNetwork_tb.vhd"

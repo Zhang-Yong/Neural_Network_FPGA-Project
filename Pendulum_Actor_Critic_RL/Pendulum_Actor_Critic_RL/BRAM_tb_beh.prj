@@ -1,0 +1,3 @@
+vhdl work "ipcore_dir/ReplayBuffer.vhd"
+vhdl work "BRAM.vhd"
+vhdl work "BRAM_tb.vhd"

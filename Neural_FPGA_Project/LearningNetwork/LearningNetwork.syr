@@ -1,0 +1,1309 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: LearningNetwork.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LearningNetwork.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LearningNetwork"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : LearningNetwork
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\sigDerivative.vhd" into library work
+Parsing entity <sigDerivative>.
+Parsing architecture <Behavioral> of entity <sigderivative>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\multiplier.vhd" into library work
+Parsing entity <multiplier>.
+Parsing architecture <Behavioral> of entity <multiplier>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\weightUpdateOutput.vhd" into library work
+Parsing entity <weightUpdateOutput>.
+Parsing architecture <Behavioral> of entity <weightupdateoutput>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\weightUpdateHidden.vhd" into library work
+Parsing entity <weightUpdateHidden>.
+Parsing architecture <Behavioral> of entity <weightupdatehidden>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\WeightMult.vhd" into library work
+Parsing entity <WeightMult>.
+Parsing architecture <Behavioral> of entity <weightmult>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\Sigmoid.vhd" into library work
+Parsing entity <Sigmoid>.
+Parsing architecture <Behavioral> of entity <sigmoid>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" into library work
+Parsing entity <OutputNode>.
+Parsing architecture <Behavioral> of entity <outputnode>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" into library work
+Parsing entity <HiddenNode>.
+Parsing architecture <Behavioral> of entity <hiddennode>.
+Parsing VHDL file "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" into library work
+Parsing entity <LearningNetwork>.
+Parsing architecture <Behavioral> of entity <learningnetwork>.
+WARNING:HDLCompiler:946 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" Line 76: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" Line 90: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" Line 104: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" Line 119: Actual for formal port input is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <LearningNetwork> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <HiddenNode> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <sigDerivative> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 68: Assignment to extsigder ignored, since the identifier is never used
+
+Elaborating entity <weightUpdateHidden> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <multiplier> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 160: w0stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 161: w1stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 162: w2stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 163: w3stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 164: w4stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 165: w5stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 166: w6stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 167: w7stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 168: weightin0 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 169: weightin1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 170: weightin2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 171: weightin3 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 172: weightin4 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 173: weightin5 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 174: weightin6 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" Line 175: weightin7 should be on the sensitivity list of the process
+
+Elaborating entity <WeightMult> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Sigmoid> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <HiddenNode> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <HiddenNode> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <OutputNode> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <weightUpdateOutput> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 190: w0stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 191: w1stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 192: w2stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 193: w3stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 194: w4stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 195: w5stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 196: w6stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 197: w7stor should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 198: weightin0 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 199: weightin1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 200: weightin2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 201: weightin3 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 202: weightin4 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 203: weightin5 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 204: weightin6 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" Line 205: weightin7 should be on the sensitivity list of the process
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65. All outputs of instance <sigDerMod> of block <sigDerivative> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84. All outputs of instance <weightUpdateMod2> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91. All outputs of instance <weightUpdateMod3> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98. All outputs of instance <weightUpdateMod4> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105. All outputs of instance <weightUpdateMod5> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112. All outputs of instance <weightUpdateMod6> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119. All outputs of instance <weightUpdateMod7> of block <weightUpdateHidden> are unconnected in block <HiddenNode_1>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65. All outputs of instance <sigDerMod> of block <sigDerivative> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84. All outputs of instance <weightUpdateMod2> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91. All outputs of instance <weightUpdateMod3> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98. All outputs of instance <weightUpdateMod4> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105. All outputs of instance <weightUpdateMod5> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112. All outputs of instance <weightUpdateMod6> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119. All outputs of instance <weightUpdateMod7> of block <weightUpdateHidden> are unconnected in block <HiddenNode_2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65. All outputs of instance <sigDerMod> of block <sigDerivative> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84. All outputs of instance <weightUpdateMod2> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91. All outputs of instance <weightUpdateMod3> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98. All outputs of instance <weightUpdateMod4> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105. All outputs of instance <weightUpdateMod5> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112. All outputs of instance <weightUpdateMod6> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119. All outputs of instance <weightUpdateMod7> of block <weightUpdateHidden> are unconnected in block <HiddenNode_3>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 122. All outputs of instance <weightUpdateMod3> of block <weightUpdateOutput> are unconnected in block <OutputNode>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 129. All outputs of instance <weightUpdateMod4> of block <weightUpdateOutput> are unconnected in block <OutputNode>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 136. All outputs of instance <weightUpdateMod5> of block <weightUpdateOutput> are unconnected in block <OutputNode>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 143. All outputs of instance <weightUpdateMod6> of block <weightUpdateOutput> are unconnected in block <OutputNode>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 150. All outputs of instance <weightUpdateMod7> of block <weightUpdateOutput> are unconnected in block <OutputNode>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LearningNetwork>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd".
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 68: Output port <newWeight> of the instance <mL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 68: Output port <testOutWeight> of the instance <mL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 82: Output port <newWeight> of the instance <mM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 82: Output port <testOutWeight> of the instance <mM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 96: Output port <newWeight> of the instance <mR> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 96: Output port <testOutWeight> of the instance <mR> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 110: Output port <deltaK> of the instance <t> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 110: Output port <newWeight> of the instance <t> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\LearningNetwork.vhd" line 110: Output port <testOutWeight> of the instance <t> is unconnected or connected to loadless signal.
+    Found 5-bit register for signal <corrOut_result>.
+    Found 2-bit register for signal <input_result>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <LearningNetwork> synthesized.
+
+Synthesizing Unit <HiddenNode_1>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd".
+        numActive = 2
+        defLearnRate = "00000100"
+        default0 = "01110000"
+        default1 = "10111100"
+        default2 = "00000000"
+        default3 = "00000000"
+        default4 = "00000000"
+        default5 = "00000000"
+        default6 = "00000000"
+        default7 = "00000000"
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65: Output port <output> of the instance <sigDerMod> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84: Output port <newWeight> of the instance <weightUpdateMod2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91: Output port <newWeight> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98: Output port <newWeight> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105: Output port <newWeight> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112: Output port <newWeight> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119: Output port <newWeight> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <w1Stor>.
+    Found 8-bit register for signal <w3Stor>.
+    Found 8-bit register for signal <w4Stor>.
+    Found 8-bit register for signal <w5Stor>.
+    Found 8-bit register for signal <w6Stor>.
+    Found 8-bit register for signal <w7Stor>.
+    Found 8-bit register for signal <weightIn0>.
+    Found 8-bit register for signal <weightIn1>.
+    Found 8-bit register for signal <weightIn2>.
+    Found 8-bit register for signal <weightIn3>.
+    Found 8-bit register for signal <weightIn4>.
+    Found 8-bit register for signal <weightIn5>.
+    Found 8-bit register for signal <weightIn6>.
+    Found 8-bit register for signal <weightIn7>.
+    Found 8-bit register for signal <w0Stor>.
+    Found 8-bit adder for signal <n0101> created at line 218.
+    Found 8-bit adder for signal <n0104> created at line 218.
+    Found 8-bit adder for signal <n0107> created at line 218.
+    Found 8-bit adder for signal <n0110> created at line 218.
+    Found 8-bit adder for signal <n0113> created at line 218.
+    Found 8-bit adder for signal <n0116> created at line 218.
+    Found 8-bit adder for signal <sigIn> created at line 218.
+    WARNING:Xst:2404 -  FFs/Latches <w2Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 120 D-type flip-flop(s).
+Unit <HiddenNode_1> synthesized.
+
+Synthesizing Unit <sigDerivative>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\sigDerivative.vhd".
+    Found 256x5-bit Read Only RAM for signal <output>
+    Summary:
+	inferred   1 RAM(s).
+Unit <sigDerivative> synthesized.
+
+Synthesizing Unit <weightUpdateHidden>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\weightUpdateHidden.vhd".
+    Found 8-bit adder for signal <n0034> created at line 30.
+    Found 8-bit adder for signal <n0037> created at line 30.
+    Found 8-bit adder for signal <n0040> created at line 30.
+    Found 8-bit adder for signal <n0043> created at line 30.
+    Found 8-bit adder for signal <n0046> created at line 30.
+    Found 8-bit adder for signal <n0049> created at line 30.
+    Found 8-bit adder for signal <deltaKSum> created at line 30.
+    Found 8-bit adder for signal <newWeight> created at line 45.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+Unit <weightUpdateHidden> synthesized.
+
+Synthesizing Unit <multiplier>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\multiplier.vhd".
+    Found 8-bit subtractor for signal <in1[7]_unary_minus_1_OUT<7:0>> created at line 0.
+    Found 8-bit subtractor for signal <in2[7]_unary_minus_3_OUT<7:0>> created at line 0.
+    Found 8-bit subtractor for signal <tempOut[7]_unary_minus_8_OUT<7:0>> created at line 0.
+    Found 8x8-bit multiplier for signal <multRes> created at line 26.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+Synthesizing Unit <WeightMult>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\WeightMult.vhd".
+    Found 8-bit adder for signal <n0036> created at line 32.
+    Found 8-bit adder for signal <n0039> created at line 32.
+    Found 8-bit adder for signal <n0042> created at line 32.
+    Found 8-bit adder for signal <sum> created at line 32.
+    Found 8-bit subtractor for signal <sum[7]_unary_minus_11_OUT<7:0>> created at line 0.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred   7 Multiplexer(s).
+Unit <WeightMult> synthesized.
+
+Synthesizing Unit <Sigmoid>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\Sigmoid.vhd".
+    Found 256x5-bit Read Only RAM for signal <output>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Sigmoid> synthesized.
+
+Synthesizing Unit <HiddenNode_2>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd".
+        numActive = 2
+        defLearnRate = "00000100"
+        default0 = "10100000"
+        default1 = "00001100"
+        default2 = "00000000"
+        default3 = "00000000"
+        default4 = "00000000"
+        default5 = "00000000"
+        default6 = "00000000"
+        default7 = "00000000"
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65: Output port <output> of the instance <sigDerMod> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84: Output port <newWeight> of the instance <weightUpdateMod2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91: Output port <newWeight> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98: Output port <newWeight> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105: Output port <newWeight> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112: Output port <newWeight> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119: Output port <newWeight> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <w1Stor>.
+    Found 8-bit register for signal <w3Stor>.
+    Found 8-bit register for signal <w4Stor>.
+    Found 8-bit register for signal <w5Stor>.
+    Found 8-bit register for signal <w6Stor>.
+    Found 8-bit register for signal <w7Stor>.
+    Found 8-bit register for signal <weightIn0>.
+    Found 8-bit register for signal <weightIn1>.
+    Found 8-bit register for signal <weightIn2>.
+    Found 8-bit register for signal <weightIn3>.
+    Found 8-bit register for signal <weightIn4>.
+    Found 8-bit register for signal <weightIn5>.
+    Found 8-bit register for signal <weightIn6>.
+    Found 8-bit register for signal <weightIn7>.
+    Found 8-bit register for signal <w0Stor>.
+    Found 8-bit adder for signal <n0101> created at line 218.
+    Found 8-bit adder for signal <n0104> created at line 218.
+    Found 8-bit adder for signal <n0107> created at line 218.
+    Found 8-bit adder for signal <n0110> created at line 218.
+    Found 8-bit adder for signal <n0113> created at line 218.
+    Found 8-bit adder for signal <n0116> created at line 218.
+    Found 8-bit adder for signal <sigIn> created at line 218.
+    WARNING:Xst:2404 -  FFs/Latches <w2Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 120 D-type flip-flop(s).
+Unit <HiddenNode_2> synthesized.
+
+Synthesizing Unit <HiddenNode_3>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd".
+        numActive = 2
+        defLearnRate = "00000100"
+        default0 = "00001100"
+        default1 = "00001100"
+        default2 = "00000000"
+        default3 = "00000000"
+        default4 = "00000000"
+        default5 = "00000000"
+        default6 = "00000000"
+        default7 = "00000000"
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 65: Output port <output> of the instance <sigDerMod> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 84: Output port <newWeight> of the instance <weightUpdateMod2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 91: Output port <newWeight> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 98: Output port <newWeight> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 105: Output port <newWeight> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 112: Output port <newWeight> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\HiddenNode.vhd" line 119: Output port <newWeight> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <w1Stor>.
+    Found 8-bit register for signal <w3Stor>.
+    Found 8-bit register for signal <w4Stor>.
+    Found 8-bit register for signal <w5Stor>.
+    Found 8-bit register for signal <w6Stor>.
+    Found 8-bit register for signal <w7Stor>.
+    Found 8-bit register for signal <weightIn0>.
+    Found 8-bit register for signal <weightIn1>.
+    Found 8-bit register for signal <weightIn2>.
+    Found 8-bit register for signal <weightIn3>.
+    Found 8-bit register for signal <weightIn4>.
+    Found 8-bit register for signal <weightIn5>.
+    Found 8-bit register for signal <weightIn6>.
+    Found 8-bit register for signal <weightIn7>.
+    Found 8-bit register for signal <w0Stor>.
+    Found 8-bit adder for signal <n0101> created at line 218.
+    Found 8-bit adder for signal <n0104> created at line 218.
+    Found 8-bit adder for signal <n0107> created at line 218.
+    Found 8-bit adder for signal <n0110> created at line 218.
+    Found 8-bit adder for signal <n0113> created at line 218.
+    Found 8-bit adder for signal <n0116> created at line 218.
+    Found 8-bit adder for signal <sigIn> created at line 218.
+    WARNING:Xst:2404 -  FFs/Latches <w2Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 120 D-type flip-flop(s).
+Unit <HiddenNode_3> synthesized.
+
+Synthesizing Unit <OutputNode>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd".
+        numActive = 3
+        defLearnRate = "00001000"
+        default0 = "11000000"
+        default1 = "10010000"
+        default2 = "01000000"
+        default3 = "00000000"
+        default4 = "00000000"
+        default5 = "00000000"
+        default6 = "00000000"
+        default7 = "00000000"
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 101: Output port <weightUpdateTest> of the instance <weightUpdateMod0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 101: Output port <leftProd> of the instance <weightUpdateMod0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 108: Output port <weightUpdateTest> of the instance <weightUpdateMod1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 108: Output port <leftProd> of the instance <weightUpdateMod1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 115: Output port <weightUpdateTest> of the instance <weightUpdateMod2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 115: Output port <leftProd> of the instance <weightUpdateMod2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 122: Output port <weightUpdateTest> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 122: Output port <leftProd> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 122: Output port <newWeight> of the instance <weightUpdateMod3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 129: Output port <weightUpdateTest> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 129: Output port <leftProd> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 129: Output port <newWeight> of the instance <weightUpdateMod4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 136: Output port <weightUpdateTest> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 136: Output port <leftProd> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 136: Output port <newWeight> of the instance <weightUpdateMod5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 143: Output port <weightUpdateTest> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 143: Output port <leftProd> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 143: Output port <newWeight> of the instance <weightUpdateMod6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 150: Output port <weightUpdateTest> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 150: Output port <leftProd> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\OutputNode.vhd" line 150: Output port <newWeight> of the instance <weightUpdateMod7> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <w1Stor>.
+    Found 8-bit register for signal <w2Stor>.
+    Found 8-bit register for signal <w4Stor>.
+    Found 8-bit register for signal <w5Stor>.
+    Found 8-bit register for signal <w6Stor>.
+    Found 8-bit register for signal <w7Stor>.
+    Found 8-bit register for signal <weightIn0>.
+    Found 8-bit register for signal <weightIn1>.
+    Found 8-bit register for signal <weightIn2>.
+    Found 8-bit register for signal <weightIn3>.
+    Found 8-bit register for signal <weightIn4>.
+    Found 8-bit register for signal <weightIn5>.
+    Found 8-bit register for signal <weightIn6>.
+    Found 8-bit register for signal <weightIn7>.
+    Found 8-bit register for signal <w0Stor>.
+    Found 8-bit adder for signal <n0128> created at line 248.
+    Found 8-bit adder for signal <n0131> created at line 248.
+    Found 8-bit adder for signal <n0134> created at line 248.
+    Found 8-bit adder for signal <n0137> created at line 248.
+    Found 8-bit adder for signal <n0140> created at line 248.
+    Found 8-bit adder for signal <n0143> created at line 248.
+    Found 8-bit adder for signal <sigIn> created at line 248.
+    Found 8-bit subtractor for signal <errorK> created at line 39.
+    WARNING:Xst:2404 -  FFs/Latches <w3Stor<7:0>> (without init value) have a constant value of 0 in block <OutputNode>.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred 120 D-type flip-flop(s).
+Unit <OutputNode> synthesized.
+
+Synthesizing Unit <weightUpdateOutput>.
+    Related source file is "E:\Xilinx\Neural_FPGA_Project\Hardware_Neural_Net-master\Node\Node\weightUpdateOutput.vhd".
+    Found 8-bit adder for signal <newWeight> created at line 30.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <weightUpdateOutput> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x5-bit single-port Read Only RAM                   : 11
+# Multipliers                                          : 33
+ 8x8-bit multiplier                                    : 33
+# Adders/Subtractors                                   : 339
+ 8-bit adder                                           : 207
+ 8-bit subtractor                                      : 132
+# Registers                                            : 62
+ 2-bit register                                        : 1
+ 5-bit register                                        : 1
+ 8-bit register                                        : 60
+# Multiplexers                                         : 356
+ 8-bit 2-to-1 multiplexer                              : 356
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <weightDKMult3> is unconnected in block <t>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <weightDKMult4> is unconnected in block <t>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <weightDKMult5> is unconnected in block <t>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <weightDKMult6> is unconnected in block <t>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <weightDKMult7> is unconnected in block <t>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <w4Stor_0> in Unit <mL> is equivalent to the following 39 FFs/Latches, which will be removed : <w4Stor_1> <w4Stor_2> <w4Stor_3> <w4Stor_4> <w4Stor_5> <w4Stor_6> <w4Stor_7> <w3Stor_0> <w3Stor_1> <w3Stor_2> <w3Stor_3> <w3Stor_4> <w3Stor_5> <w3Stor_6> <w3Stor_7> <w7Stor_0> <w7Stor_1> <w7Stor_2> <w7Stor_3> <w7Stor_4> <w7Stor_5> <w7Stor_6> <w7Stor_7> <w5Stor_0> <w5Stor_1> <w5Stor_2> <w5Stor_3> <w5Stor_4> <w5Stor_5> <w5Stor_6> <w5Stor_7> <w6Stor_0> <w6Stor_1> <w6Stor_2> <w6Stor_3> <w6Stor_4> <w6Stor_5> <w6Stor_6> <w6Stor_7> 
+INFO:Xst:2261 - The FF/Latch <weightIn3_0> in Unit <mL> is equivalent to the following 39 FFs/Latches, which will be removed : <weightIn3_1> <weightIn3_2> <weightIn3_3> <weightIn3_4> <weightIn3_5> <weightIn3_6> <weightIn3_7> <weightIn6_0> <weightIn6_1> <weightIn6_2> <weightIn6_3> <weightIn6_4> <weightIn6_5> <weightIn6_6> <weightIn6_7> <weightIn4_0> <weightIn4_1> <weightIn4_2> <weightIn4_3> <weightIn4_4> <weightIn4_5> <weightIn4_6> <weightIn4_7> <weightIn5_0> <weightIn5_1> <weightIn5_2> <weightIn5_3> <weightIn5_4> <weightIn5_5> <weightIn5_6> <weightIn5_7> <weightIn7_0> <weightIn7_1> <weightIn7_2> <weightIn7_3> <weightIn7_4> <weightIn7_5> <weightIn7_6> <weightIn7_7> 
+INFO:Xst:2261 - The FF/Latch <w4Stor_0> in Unit <mM> is equivalent to the following 39 FFs/Latches, which will be removed : <w4Stor_1> <w4Stor_2> <w4Stor_3> <w4Stor_4> <w4Stor_5> <w4Stor_6> <w4Stor_7> <w3Stor_0> <w3Stor_1> <w3Stor_2> <w3Stor_3> <w3Stor_4> <w3Stor_5> <w3Stor_6> <w3Stor_7> <w7Stor_0> <w7Stor_1> <w7Stor_2> <w7Stor_3> <w7Stor_4> <w7Stor_5> <w7Stor_6> <w7Stor_7> <w5Stor_0> <w5Stor_1> <w5Stor_2> <w5Stor_3> <w5Stor_4> <w5Stor_5> <w5Stor_6> <w5Stor_7> <w6Stor_0> <w6Stor_1> <w6Stor_2> <w6Stor_3> <w6Stor_4> <w6Stor_5> <w6Stor_6> <w6Stor_7> 
+INFO:Xst:2261 - The FF/Latch <weightIn3_0> in Unit <mM> is equivalent to the following 39 FFs/Latches, which will be removed : <weightIn3_1> <weightIn3_2> <weightIn3_3> <weightIn3_4> <weightIn3_5> <weightIn3_6> <weightIn3_7> <weightIn6_0> <weightIn6_1> <weightIn6_2> <weightIn6_3> <weightIn6_4> <weightIn6_5> <weightIn6_6> <weightIn6_7> <weightIn4_0> <weightIn4_1> <weightIn4_2> <weightIn4_3> <weightIn4_4> <weightIn4_5> <weightIn4_6> <weightIn4_7> <weightIn5_0> <weightIn5_1> <weightIn5_2> <weightIn5_3> <weightIn5_4> <weightIn5_5> <weightIn5_6> <weightIn5_7> <weightIn7_0> <weightIn7_1> <weightIn7_2> <weightIn7_3> <weightIn7_4> <weightIn7_5> <weightIn7_6> <weightIn7_7> 
+INFO:Xst:2261 - The FF/Latch <w4Stor_0> in Unit <mR> is equivalent to the following 39 FFs/Latches, which will be removed : <w4Stor_1> <w4Stor_2> <w4Stor_3> <w4Stor_4> <w4Stor_5> <w4Stor_6> <w4Stor_7> <w3Stor_0> <w3Stor_1> <w3Stor_2> <w3Stor_3> <w3Stor_4> <w3Stor_5> <w3Stor_6> <w3Stor_7> <w7Stor_0> <w7Stor_1> <w7Stor_2> <w7Stor_3> <w7Stor_4> <w7Stor_5> <w7Stor_6> <w7Stor_7> <w5Stor_0> <w5Stor_1> <w5Stor_2> <w5Stor_3> <w5Stor_4> <w5Stor_5> <w5Stor_6> <w5Stor_7> <w6Stor_0> <w6Stor_1> <w6Stor_2> <w6Stor_3> <w6Stor_4> <w6Stor_5> <w6Stor_6> <w6Stor_7> 
+INFO:Xst:2261 - The FF/Latch <weightIn3_0> in Unit <mR> is equivalent to the following 39 FFs/Latches, which will be removed : <weightIn3_1> <weightIn3_2> <weightIn3_3> <weightIn3_4> <weightIn3_5> <weightIn3_6> <weightIn3_7> <weightIn6_0> <weightIn6_1> <weightIn6_2> <weightIn6_3> <weightIn6_4> <weightIn6_5> <weightIn6_6> <weightIn6_7> <weightIn4_0> <weightIn4_1> <weightIn4_2> <weightIn4_3> <weightIn4_4> <weightIn4_5> <weightIn4_6> <weightIn4_7> <weightIn5_0> <weightIn5_1> <weightIn5_2> <weightIn5_3> <weightIn5_4> <weightIn5_5> <weightIn5_6> <weightIn5_7> <weightIn7_0> <weightIn7_1> <weightIn7_2> <weightIn7_3> <weightIn7_4> <weightIn7_5> <weightIn7_6> <weightIn7_7> 
+INFO:Xst:2261 - The FF/Latch <w4Stor_0> in Unit <t> is equivalent to the following 31 FFs/Latches, which will be removed : <w4Stor_1> <w4Stor_2> <w4Stor_3> <w4Stor_4> <w4Stor_5> <w4Stor_6> <w4Stor_7> <w7Stor_0> <w7Stor_1> <w7Stor_2> <w7Stor_3> <w7Stor_4> <w7Stor_5> <w7Stor_6> <w7Stor_7> <w5Stor_0> <w5Stor_1> <w5Stor_2> <w5Stor_3> <w5Stor_4> <w5Stor_5> <w5Stor_6> <w5Stor_7> <w6Stor_0> <w6Stor_1> <w6Stor_2> <w6Stor_3> <w6Stor_4> <w6Stor_5> <w6Stor_6> <w6Stor_7> 
+INFO:Xst:2261 - The FF/Latch <weightIn4_0> in Unit <t> is equivalent to the following 31 FFs/Latches, which will be removed : <weightIn4_1> <weightIn4_2> <weightIn4_3> <weightIn4_4> <weightIn4_5> <weightIn4_6> <weightIn4_7> <weightIn7_0> <weightIn7_1> <weightIn7_2> <weightIn7_3> <weightIn7_4> <weightIn7_5> <weightIn7_6> <weightIn7_7> <weightIn5_0> <weightIn5_1> <weightIn5_2> <weightIn5_3> <weightIn5_4> <weightIn5_5> <weightIn5_6> <weightIn5_7> <weightIn6_0> <weightIn6_1> <weightIn6_2> <weightIn6_3> <weightIn6_4> <weightIn6_5> <weightIn6_6> <weightIn6_7> 
+WARNING:Xst:1710 - FF/Latch <w4Stor_0> (without init value) has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_0> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_1> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_2> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_3> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_4> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_5> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_6> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_7> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <w4Stor_0> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_0> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_1> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_2> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_3> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_4> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_5> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_6> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn3_7> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_1> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_2> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_3> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_4> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_5> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_6> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_7> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_0> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <w4Stor_0> (without init value) has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <w4Stor_0> (without init value) has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_0> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_1> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_2> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_3> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_4> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_5> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_6> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn2_7> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_0> has a constant value of 0 in block <t>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <mR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <mL>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <mM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <w3Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+WARNING:Xst:2404 -  FFs/Latches <w4Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+WARNING:Xst:2404 -  FFs/Latches <w5Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+WARNING:Xst:2404 -  FFs/Latches <w6Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+WARNING:Xst:2404 -  FFs/Latches <w7Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_1>.
+WARNING:Xst:2404 -  FFs/Latches <w3Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+WARNING:Xst:2404 -  FFs/Latches <w4Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+WARNING:Xst:2404 -  FFs/Latches <w5Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+WARNING:Xst:2404 -  FFs/Latches <w6Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+WARNING:Xst:2404 -  FFs/Latches <w7Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_2>.
+WARNING:Xst:2404 -  FFs/Latches <w3Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+WARNING:Xst:2404 -  FFs/Latches <w4Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+WARNING:Xst:2404 -  FFs/Latches <w5Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+WARNING:Xst:2404 -  FFs/Latches <w6Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+WARNING:Xst:2404 -  FFs/Latches <w7Stor<7:0>> (without init value) have a constant value of 0 in block <HiddenNode_3>.
+
+Synthesizing (advanced) Unit <HiddenNode_1>.
+	The following adders/subtractors are grouped into adder tree <Madd_sigIn1> :
+ 	<Madd_n0101> in block <HiddenNode_1>, 	<Madd_n0104> in block <HiddenNode_1>, 	<Madd_n0107> in block <HiddenNode_1>, 	<Madd_n0110> in block <HiddenNode_1>, 	<Madd_n0113> in block <HiddenNode_1>, 	<Madd_n0116> in block <HiddenNode_1>, 	<Madd_sigIn> in block <HiddenNode_1>.
+Unit <HiddenNode_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <HiddenNode_2>.
+	The following adders/subtractors are grouped into adder tree <Madd_sigIn1> :
+ 	<Madd_n0101> in block <HiddenNode_2>, 	<Madd_n0104> in block <HiddenNode_2>, 	<Madd_n0107> in block <HiddenNode_2>, 	<Madd_n0110> in block <HiddenNode_2>, 	<Madd_n0113> in block <HiddenNode_2>, 	<Madd_n0116> in block <HiddenNode_2>, 	<Madd_sigIn> in block <HiddenNode_2>.
+Unit <HiddenNode_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <HiddenNode_3>.
+	The following adders/subtractors are grouped into adder tree <Madd_sigIn1> :
+ 	<Madd_n0101> in block <HiddenNode_3>, 	<Madd_n0104> in block <HiddenNode_3>, 	<Madd_n0107> in block <HiddenNode_3>, 	<Madd_n0110> in block <HiddenNode_3>, 	<Madd_n0113> in block <HiddenNode_3>, 	<Madd_n0116> in block <HiddenNode_3>, 	<Madd_sigIn> in block <HiddenNode_3>.
+Unit <HiddenNode_3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <OutputNode>.
+	The following adders/subtractors are grouped into adder tree <Madd_sigIn1> :
+ 	<Madd_n0128> in block <OutputNode>, 	<Madd_n0131> in block <OutputNode>, 	<Madd_n0134> in block <OutputNode>, 	<Madd_n0137> in block <OutputNode>, 	<Madd_n0140> in block <OutputNode>, 	<Madd_n0143> in block <OutputNode>, 	<Madd_sigIn> in block <OutputNode>.
+Unit <OutputNode> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Sigmoid>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_output> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 5-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <input>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <output>        |          |
+    -----------------------------------------------------------------------
+Unit <Sigmoid> synthesized (advanced).
+
+Synthesizing (advanced) Unit <WeightMult>.
+	The following adders/subtractors are grouped into adder tree <Madd_sum1> :
+ 	<Madd_n0036> in block <WeightMult>, 	<Madd_n0039> in block <WeightMult>, 	<Madd_n0042> in block <WeightMult>, 	<Madd_sum> in block <WeightMult>.
+Unit <WeightMult> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sigDerivative>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_output> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 5-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <input>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <output>        |          |
+    -----------------------------------------------------------------------
+Unit <sigDerivative> synthesized (advanced).
+
+Synthesizing (advanced) Unit <weightUpdateHidden>.
+	The following adders/subtractors are grouped into adder tree <Madd_deltaKSum1> :
+ 	<Madd_n0034> in block <weightUpdateHidden>, 	<Madd_n0037> in block <weightUpdateHidden>, 	<Madd_n0040> in block <weightUpdateHidden>, 	<Madd_n0043> in block <weightUpdateHidden>, 	<Madd_n0046> in block <weightUpdateHidden>, 	<Madd_n0049> in block <weightUpdateHidden>, 	<Madd_deltaKSum> in block <weightUpdateHidden>.
+Unit <weightUpdateHidden> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 256x5-bit single-port distributed Read Only RAM       : 11
+# Multipliers                                          : 33
+ 8x8-bit multiplier                                    : 33
+# Adders/Subtractors                                   : 141
+ 8-bit adder                                           : 9
+ 8-bit subtractor                                      : 132
+# Adder Trees                                          : 42
+ 8-bit / 5-inputs adder tree                           : 32
+ 8-bit / 8-inputs adder tree                           : 10
+# Registers                                            : 367
+ Flip-Flops                                            : 367
+# Multiplexers                                         : 356
+ 8-bit 2-to-1 multiplexer                              : 356
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <weightIn5_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_1> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_2> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_3> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_4> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_5> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_6> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_7> has a constant value of 0 in block <HiddenNode_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn5_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_1> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_2> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_3> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_4> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_5> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_6> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_7> has a constant value of 0 in block <HiddenNode_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <weightIn5_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn2_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_1> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_2> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_3> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_4> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_5> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_6> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_7> has a constant value of 0 in block <HiddenNode_3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <w6Stor_4> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_5> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_6> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_0> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_1> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_2> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_3> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_4> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_5> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_6> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w7Stor_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_0> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_1> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_2> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_3> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_4> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_5> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn3_6> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn3_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_0> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_1> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_2> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_3> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_4> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_5> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_6> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w4Stor_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_0> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_1> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_3> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_2> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_1> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w6Stor_0> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_6> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_5> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_4> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_3> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <w5Stor_2> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_0> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_1> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_2> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_3> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_4> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_5> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn6_6> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn6_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_0> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_1> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_2> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_3> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_4> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_5> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn7_6> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn7_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn4_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_6> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_5> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_4> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_3> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_2> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_1> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn4_0> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <weightIn5_7> has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_6> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_5> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_4> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_3> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_2> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_1> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <weightIn5_0> (without init value) has a constant value of 0 in block <OutputNode>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <LearningNetwork> ...
+
+Optimizing unit <HiddenNode_1> ...
+
+Optimizing unit <WeightMult> ...
+
+Optimizing unit <HiddenNode_2> ...
+
+Optimizing unit <HiddenNode_3> ...
+
+Optimizing unit <OutputNode> ...
+
+Optimizing unit <weightUpdateOutput> ...
+WARNING:Xst:2677 - Node <t/weightDKMult3/Mmult_multRes> of sequential type is unconnected in block <LearningNetwork>.
+WARNING:Xst:2677 - Node <t/weightDKMult4/Mmult_multRes> of sequential type is unconnected in block <LearningNetwork>.
+WARNING:Xst:2677 - Node <t/weightDKMult5/Mmult_multRes> of sequential type is unconnected in block <LearningNetwork>.
+WARNING:Xst:2677 - Node <t/weightDKMult6/Mmult_multRes> of sequential type is unconnected in block <LearningNetwork>.
+WARNING:Xst:2677 - Node <t/weightDKMult7/Mmult_multRes> of sequential type is unconnected in block <LearningNetwork>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LearningNetwork, actual ratio is 57.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 151
+ Flip-Flops                                            : 151
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LearningNetwork.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5144
+#      GND                         : 1
+#      INV                         : 77
+#      LUT1                        : 110
+#      LUT2                        : 343
+#      LUT3                        : 584
+#      LUT4                        : 673
+#      LUT5                        : 293
+#      LUT6                        : 564
+#      MUXCY                       : 1187
+#      VCC                         : 1
+#      XORCY                       : 1311
+# FlipFlops/Latches                : 151
+#      FD                          : 79
+#      FDE_1                       : 72
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 8
+#      OBUF                        : 5
+# DSPs                             : 11
+#      DSP48A1                     : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             144  out of  11440     1%  
+ Number of Slice LUTs:                 2644  out of   5720    46%  
+    Number used as Logic:              2644  out of   5720    46%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2707
+   Number with an unused Flip Flop:    2563  out of   2707    94%  
+   Number with an unused LUT:            63  out of   2707     2%  
+   Number of fully used LUT-FF pairs:    81  out of   2707     2%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    102    13%  
+    IOB Flip Flops/Latches:               7
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+ Number of DSP48A1s:                     11  out of     16    68%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 7     |
+update                             | IBUF+BUFG              | 144   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 120.473ns (Maximum Frequency: 8.301MHz)
+   Minimum input arrival time before clock: 4.557ns
+   Maximum output required time after clock: 31.802ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'update'
+  Clock period: 120.473ns (frequency: 8.301MHz)
+  Total number of paths / destination ports: 841177903609016830000000 / 144
+-------------------------------------------------------------------------
+Delay:               60.237ns (Levels of Logic = 65)
+  Source:            mM/weightIn0_1 (FF)
+  Destination:       mL/w1Stor_7 (FF)
+  Source Clock:      update falling
+  Destination Clock: update rising
+
+  Data Path: mM/weightIn0_1 to mL/w1Stor_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.525   0.766  mM/weightIn0_1 (mM/weightIn0_1)
+     LUT2:I1->O            2   0.254   0.954  mM/weight0/Mmux_o421 (mM/weight0/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd11 (mM/weight0/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2 (mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  mM/weight0/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (mM/weight0/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd32 (mM/weight0/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3 (mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           5   0.149   0.841  mM/weight0/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (mM/weight0/ADDERTREE_INTERNAL_Madd_33)
+     LUT4:I3->O            1   0.254   0.682  mM/weight0/Mmux_output511 (mM/weight0/Mmux_output51)
+     LUT6:I5->O            2   0.254   0.954  mM/weight0/Mmux_output61 (mM/weightOut0<5>)
+     LUT3:I0->O            1   0.235   0.682  mM/ADDERTREE_INTERNAL_Madd165 (mM/ADDERTREE_INTERNAL_Madd165)
+     LUT4:I3->O            1   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd16_lut<0>6 (mM/ADDERTREE_INTERNAL_Madd16_lut<0>6)
+     MUXCY:S->O            0   0.215   0.000  mM/ADDERTREE_INTERNAL_Madd16_cy<0>_5 (mM/ADDERTREE_INTERNAL_Madd16_cy<0>6)
+     XORCY:CI->O           1   0.206   0.682  mM/ADDERTREE_INTERNAL_Madd16_xor<0>_6 (mM/ADDERTREE_INTERNAL_Madd_716)
+     LUT2:I1->O            0   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd20_lut<7> (mM/ADDERTREE_INTERNAL_Madd20_lut<7>)
+     XORCY:LI->O          12   0.149   1.069  mM/ADDERTREE_INTERNAL_Madd20_xor<7> (mM/ADDERTREE_INTERNAL_Madd_720)
+     LUT6:I5->O           11   0.254   1.039  mM_sig/Mram_output1411 (mMOut<4>)
+     LUT2:I1->O            2   0.254   0.954  t/weight1/Mmux_o421 (t/weight1/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  t/weight1/ADDERTREE_INTERNAL_Madd11 (t/weight1/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2 (t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  t/weight1/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (t/weight1/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  t/weight1/ADDERTREE_INTERNAL_Madd32 (t/weight1/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3 (t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           3   0.149   0.766  t/weight1/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (t/weight1/ADDERTREE_INTERNAL_Madd_33)
+     LUT6:I5->O            1   0.254   0.790  t/weight1/Mmux_output4 (t/weightOut1<3>)
+     LUT2:I0->O            1   0.250   0.000  t/ADDERTREE_INTERNAL_Madd_lut<3> (t/ADDERTREE_INTERNAL_Madd_lut<3>)
+     XORCY:LI->O           2   0.149   0.726  t/ADDERTREE_INTERNAL_Madd_xor<3> (t/ADDERTREE_INTERNAL_Madd_3)
+     LUT3:I2->O            1   0.254   0.682  t/ADDERTREE_INTERNAL_Madd23 (t/ADDERTREE_INTERNAL_Madd23)
+     LUT4:I3->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd2_lut<0>4 (t/ADDERTREE_INTERNAL_Madd2_lut<0>4)
+     XORCY:LI->O           1   0.149   0.682  t/ADDERTREE_INTERNAL_Madd2_xor<0>_3 (t/ADDERTREE_INTERNAL_Madd_42)
+     LUT2:I1->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd6_lut<4> (t/ADDERTREE_INTERNAL_Madd6_lut<4>)
+     XORCY:LI->O          15   0.149   1.155  t/ADDERTREE_INTERNAL_Madd6_xor<4> (t/ADDERTREE_INTERNAL_Madd_46)
+     LUT4:I3->O            1   0.254   0.910  t_sig/Mram_output8113_SW1 (t_N33)
+     LUT6:I3->O           11   0.235   1.039  t_sig/Mram_output8113 (Output_2_OBUF)
+     LUT6:I5->O            3   0.254   0.874  t/Msub_errorK_cy<4>12_SW1 (N557)
+     LUT6:I4->O            9   0.250   0.976  t/Msub_errorK_cy<4>12 (t/Msub_errorK_cy<4>)
+     LUT5:I4->O            1   0.254   0.681  t/deltaKMult/Mmux_posIn151 (t/deltaKMult/posIn1<4>)
+     DSP48A1:B4->M7        9   3.894   1.252  t/deltaKMult/Mmult_multRes (t/deltaKMult/multRes<7>)
+     LUT5:I1->O            2   0.254   0.834  t/weightDKMult0/posIn1<7>1_SW0 (N174)
+     LUT6:I4->O           17   0.250   1.208  t/weightDKMult0/posIn1<7>1 (t/weightDKMult0/posIn1<7>)
+     DSP48A1:B7->M5       42   3.894   1.795  t/weightDKMult0/Mmult_multRes (t/weightDKMult0/multRes<5>)
+     LUT6:I4->O            9   0.250   0.976  t/weightDKMult0/Mmux_output711 (t/weightDKMult0/Mmux_output71)
+     LUT4:I3->O           16   0.254   1.290  t/weightDKMult0/Mmux_output71 (weightDeltaKOutNode<6>)
+     LUT6:I4->O            1   0.250   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4>)
+     MUXCY:S->O            1   0.215   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_cy<4> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_cy<4>)
+     XORCY:CI->O           1   0.206   0.681  mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_xor<5> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd_81)
+     INV:I->O              1   0.255   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd5_lut<5>1_INV_0 (mL/weightUpdateMod0/multR/Mmult_multRes_Madd5_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd5_cy<5> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd5_cy<5>)
+     XORCY:CI->O           1   0.206   0.790  mL/weightUpdateMod0/multR/Mmult_multRes_Madd5_xor<6> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd_95)
+     LUT2:I0->O            1   0.250   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd6_lut<9> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd6_lut<9>)
+     MUXCY:S->O            1   0.215   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd6_cy<9> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd6_cy<9>)
+     XORCY:CI->O           1   0.206   0.682  mL/weightUpdateMod0/multR/Mmult_multRes_Madd6_xor<10> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_lut<10>)
+     LUT1:I0->O            1   0.254   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_cy<10>_rt (mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_cy<10>_rt)
+     MUXCY:S->O            0   0.215   0.000  mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_cy<10> (mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_cy<10>)
+     XORCY:CI->O          31   0.206   1.503  mL/weightUpdateMod0/multR/Mmult_multRes_Madd7_xor<11> (mL/weightUpdateMod0/multR/multRes<11>)
+     LUT5:I4->O            7   0.254   1.018  mL/weightUpdateMod0/multAll/Mmux_posIn241 (mL/weightUpdateMod0/multAll/posIn2<3>)
+     LUT6:I4->O            1   0.250   0.682  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd2_xor<7>11 (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd_82)
+     LUT2:I1->O            1   0.254   0.000  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd4_lut<8> (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd4_lut<8>)
+     XORCY:LI->O           1   0.149   0.682  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd4_xor<8> (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd_84)
+     LUT2:I1->O            1   0.254   0.000  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd6_lut<8> (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd6_lut<8>)
+     XORCY:LI->O           1   0.149   0.682  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd6_xor<8> (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd_86)
+     LUT5:I4->O            1   0.254   0.000  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd7_lut<8> (mL/weightUpdateMod0/multAll/Mmult_multRes_Madd7_lut<8>)
+     XORCY:LI->O           4   0.149   0.804  mL/weightUpdateMod0/multAll/Mmult_multRes_Madd7_xor<8> (mL/weightUpdateMod0/multAll/multRes<8>)
+     LUT3:I2->O            1   0.254   0.682  mL/weightUpdateMod0/multAll/Mmux_output81_SW0 (N209)
+     LUT6:I5->O            0   0.254   0.000  mL/weightUpdateMod0/Madd_newWeight_lut<7> (mL/weightUpdateMod0/Madd_newWeight_lut<7>)
+     XORCY:LI->O           1   0.149   0.000  mL/weightUpdateMod0/Madd_newWeight_xor<7> (mL/newWeightTemp0<7>)
+     FD:D                      0.074          mL/w0Stor_7
+    ----------------------------------------
+    Total                     60.237ns (22.591ns logic, 37.646ns route)
+                                       (37.5% logic, 62.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              2.083ns (Levels of Logic = 1)
+  Source:            Input<0> (PAD)
+  Destination:       input_result_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: Input<0> to input_result_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  Input_0_IBUF (Input_0_IBUF)
+     FD:D                      0.074          input_result_0
+    ----------------------------------------
+    Total                      2.083ns (1.402ns logic, 0.681ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'update'
+  Total number of paths / destination ports: 72 / 72
+-------------------------------------------------------------------------
+Offset:              4.557ns (Levels of Logic = 2)
+  Source:            update (PAD)
+  Destination:       mL/weightIn1_7 (FF)
+  Destination Clock: update falling
+
+  Data Path: update to mL/weightIn1_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  update_IBUF (update_IBUF)
+     INV:I->O             72   0.255   1.991  mL/update_inv1_INV_0 (mL/update_inv)
+     FDE_1:CE                  0.302          mL/weightIn1_0
+    ----------------------------------------
+    Total                      4.557ns (1.885ns logic, 2.672ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 34715468400 / 5
+-------------------------------------------------------------------------
+Offset:              31.802ns (Levels of Logic = 35)
+  Source:            input_result_1 (FF)
+  Destination:       Output<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: input_result_1 to Output<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              72   0.525   2.100  input_result_1 (input_result_1)
+     LUT2:I0->O            2   0.250   0.954  mM/weight0/Mmux_o421 (mM/weight0/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd11 (mM/weight0/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2 (mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  mM/weight0/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (mM/weight0/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd32 (mM/weight0/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3 (mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           5   0.149   0.841  mM/weight0/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (mM/weight0/ADDERTREE_INTERNAL_Madd_33)
+     LUT4:I3->O            1   0.254   0.682  mM/weight0/Mmux_output511 (mM/weight0/Mmux_output51)
+     LUT6:I5->O            2   0.254   0.954  mM/weight0/Mmux_output61 (mM/weightOut0<5>)
+     LUT3:I0->O            1   0.235   0.682  mM/ADDERTREE_INTERNAL_Madd165 (mM/ADDERTREE_INTERNAL_Madd165)
+     LUT4:I3->O            1   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd16_lut<0>6 (mM/ADDERTREE_INTERNAL_Madd16_lut<0>6)
+     MUXCY:S->O            0   0.215   0.000  mM/ADDERTREE_INTERNAL_Madd16_cy<0>_5 (mM/ADDERTREE_INTERNAL_Madd16_cy<0>6)
+     XORCY:CI->O           1   0.206   0.682  mM/ADDERTREE_INTERNAL_Madd16_xor<0>_6 (mM/ADDERTREE_INTERNAL_Madd_716)
+     LUT2:I1->O            0   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd20_lut<7> (mM/ADDERTREE_INTERNAL_Madd20_lut<7>)
+     XORCY:LI->O          12   0.149   1.069  mM/ADDERTREE_INTERNAL_Madd20_xor<7> (mM/ADDERTREE_INTERNAL_Madd_720)
+     LUT6:I5->O           11   0.254   1.039  mM_sig/Mram_output1411 (mMOut<4>)
+     LUT2:I1->O            2   0.254   0.954  t/weight1/Mmux_o421 (t/weight1/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  t/weight1/ADDERTREE_INTERNAL_Madd11 (t/weight1/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2 (t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  t/weight1/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (t/weight1/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  t/weight1/ADDERTREE_INTERNAL_Madd32 (t/weight1/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3 (t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           3   0.149   0.766  t/weight1/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (t/weight1/ADDERTREE_INTERNAL_Madd_33)
+     LUT6:I5->O            1   0.254   0.790  t/weight1/Mmux_output4 (t/weightOut1<3>)
+     LUT2:I0->O            1   0.250   0.000  t/ADDERTREE_INTERNAL_Madd_lut<3> (t/ADDERTREE_INTERNAL_Madd_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  t/ADDERTREE_INTERNAL_Madd_cy<3> (t/ADDERTREE_INTERNAL_Madd_cy<3>)
+     XORCY:CI->O           2   0.206   0.726  t/ADDERTREE_INTERNAL_Madd_xor<4> (t/ADDERTREE_INTERNAL_Madd_4)
+     LUT3:I2->O            1   0.254   0.682  t/ADDERTREE_INTERNAL_Madd24 (t/ADDERTREE_INTERNAL_Madd24)
+     LUT4:I3->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd2_lut<0>5 (t/ADDERTREE_INTERNAL_Madd2_lut<0>5)
+     XORCY:LI->O           1   0.149   0.682  t/ADDERTREE_INTERNAL_Madd2_xor<0>_4 (t/ADDERTREE_INTERNAL_Madd_52)
+     LUT2:I1->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd6_lut<5> (t/ADDERTREE_INTERNAL_Madd6_lut<5>)
+     XORCY:LI->O          14   0.149   1.127  t/ADDERTREE_INTERNAL_Madd6_xor<5> (t/ADDERTREE_INTERNAL_Madd_56)
+     LUT6:I5->O            1   0.254   0.790  t_sig/Mram_output211_SW4 (t_N17)
+     LUT4:I2->O           10   0.250   1.007  t_sig/Mram_output211 (Output_0_OBUF)
+     OBUF:I->O                 2.912          Output_0_OBUF (Output<0>)
+    ----------------------------------------
+    Total                     31.802ns (11.095ns logic, 20.707ns route)
+                                       (34.9% logic, 65.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'update'
+  Total number of paths / destination ports: 38152917081 / 5
+-------------------------------------------------------------------------
+Offset:              30.472ns (Levels of Logic = 35)
+  Source:            mM/weightIn0_1 (FF)
+  Destination:       Output<1> (PAD)
+  Source Clock:      update falling
+
+  Data Path: mM/weightIn0_1 to Output<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            3   0.525   0.766  mM/weightIn0_1 (mM/weightIn0_1)
+     LUT2:I1->O            2   0.254   0.954  mM/weight0/Mmux_o421 (mM/weight0/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd11 (mM/weight0/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2 (mM/weight0/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  mM/weight0/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (mM/weight0/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  mM/weight0/ADDERTREE_INTERNAL_Madd32 (mM/weight0/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3 (mM/weight0/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           5   0.149   0.841  mM/weight0/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (mM/weight0/ADDERTREE_INTERNAL_Madd_33)
+     LUT4:I3->O            1   0.254   0.682  mM/weight0/Mmux_output511 (mM/weight0/Mmux_output51)
+     LUT6:I5->O            2   0.254   0.954  mM/weight0/Mmux_output61 (mM/weightOut0<5>)
+     LUT3:I0->O            1   0.235   0.682  mM/ADDERTREE_INTERNAL_Madd165 (mM/ADDERTREE_INTERNAL_Madd165)
+     LUT4:I3->O            1   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd16_lut<0>6 (mM/ADDERTREE_INTERNAL_Madd16_lut<0>6)
+     MUXCY:S->O            0   0.215   0.000  mM/ADDERTREE_INTERNAL_Madd16_cy<0>_5 (mM/ADDERTREE_INTERNAL_Madd16_cy<0>6)
+     XORCY:CI->O           1   0.206   0.682  mM/ADDERTREE_INTERNAL_Madd16_xor<0>_6 (mM/ADDERTREE_INTERNAL_Madd_716)
+     LUT2:I1->O            0   0.254   0.000  mM/ADDERTREE_INTERNAL_Madd20_lut<7> (mM/ADDERTREE_INTERNAL_Madd20_lut<7>)
+     XORCY:LI->O          12   0.149   1.069  mM/ADDERTREE_INTERNAL_Madd20_xor<7> (mM/ADDERTREE_INTERNAL_Madd_720)
+     LUT6:I5->O           11   0.254   1.039  mM_sig/Mram_output1411 (mMOut<4>)
+     LUT2:I1->O            2   0.254   0.954  t/weight1/Mmux_o421 (t/weight1/o4<1>)
+     LUT3:I0->O            1   0.235   0.682  t/weight1/ADDERTREE_INTERNAL_Madd11 (t/weight1/ADDERTREE_INTERNAL_Madd11)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2 (t/weight1/ADDERTREE_INTERNAL_Madd1_lut<0>2)
+     XORCY:LI->O           2   0.149   0.726  t/weight1/ADDERTREE_INTERNAL_Madd1_xor<0>_1 (t/weight1/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.254   0.682  t/weight1/ADDERTREE_INTERNAL_Madd32 (t/weight1/ADDERTREE_INTERNAL_Madd32)
+     LUT4:I3->O            1   0.254   0.000  t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3 (t/weight1/ADDERTREE_INTERNAL_Madd3_lut<0>3)
+     XORCY:LI->O           3   0.149   0.766  t/weight1/ADDERTREE_INTERNAL_Madd3_xor<0>_2 (t/weight1/ADDERTREE_INTERNAL_Madd_33)
+     LUT6:I5->O            1   0.254   0.790  t/weight1/Mmux_output4 (t/weightOut1<3>)
+     LUT2:I0->O            1   0.250   0.000  t/ADDERTREE_INTERNAL_Madd_lut<3> (t/ADDERTREE_INTERNAL_Madd_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  t/ADDERTREE_INTERNAL_Madd_cy<3> (t/ADDERTREE_INTERNAL_Madd_cy<3>)
+     XORCY:CI->O           2   0.206   0.726  t/ADDERTREE_INTERNAL_Madd_xor<4> (t/ADDERTREE_INTERNAL_Madd_4)
+     LUT3:I2->O            1   0.254   0.682  t/ADDERTREE_INTERNAL_Madd24 (t/ADDERTREE_INTERNAL_Madd24)
+     LUT4:I3->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd2_lut<0>5 (t/ADDERTREE_INTERNAL_Madd2_lut<0>5)
+     XORCY:LI->O           1   0.149   0.682  t/ADDERTREE_INTERNAL_Madd2_xor<0>_4 (t/ADDERTREE_INTERNAL_Madd_52)
+     LUT2:I1->O            1   0.254   0.000  t/ADDERTREE_INTERNAL_Madd6_lut<5> (t/ADDERTREE_INTERNAL_Madd6_lut<5>)
+     XORCY:LI->O          14   0.149   1.127  t/ADDERTREE_INTERNAL_Madd6_xor<5> (t/ADDERTREE_INTERNAL_Madd_56)
+     LUT6:I5->O            1   0.254   0.790  t_sig/Mram_output211_SW4 (t_N17)
+     LUT4:I2->O           10   0.250   1.007  t_sig/Mram_output211 (Output_0_OBUF)
+     OBUF:I->O                 2.912          Output_0_OBUF (Output<0>)
+    ----------------------------------------
+    Total                     30.472ns (11.099ns logic, 19.373ns route)
+                                       (36.4% logic, 63.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock update
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   61.566|         |         |         |
+update         |         |   60.237|    1.280|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 37.04 secs
+ 
+--> 
+
+Total memory usage is 314940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  348 (   0 filtered)
+Number of infos    :   61 (   0 filtered)
+

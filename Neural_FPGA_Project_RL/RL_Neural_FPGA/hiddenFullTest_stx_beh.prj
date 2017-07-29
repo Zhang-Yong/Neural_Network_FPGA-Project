@@ -1,0 +1,5 @@
+vhdl isim_temp "../multiplier.vhd"
+vhdl isim_temp "../weightUpdateHidden.vhd"
+vhdl isim_temp "../WeightMult.vhd"
+vhdl isim_temp "../HiddenNode.vhd"
+vhdl isim_temp "../hiddenFullTest.vhd"

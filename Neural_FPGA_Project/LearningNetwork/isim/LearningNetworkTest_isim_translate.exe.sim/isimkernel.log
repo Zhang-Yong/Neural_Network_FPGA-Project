@@ -1,0 +1,29 @@
+Command line:
+   LearningNetworkTest_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52030
+
+Thu Mar 09 17:31:07 2017
+
+
+ Elaboration Time: 1.62241 sec
+
+ Current Memory Usage: 879.071 Meg
+
+ Total Signals          : 51012
+ Total Nets             : 44786
+ Total Signal Drivers   : 30854
+ Total Blocks           : 14837
+ Total Primitive Blocks : 9420
+ Total Processes        : 30632
+ Total Traceable Variables  : 66480
+ Total Scalar Nets and Variables : 814638
+Total Line Count : 85518
+
+ Total Simulation Time: 85.7694 sec
+
+ Current Memory Usage: 879.071 Meg
+
+Thu Mar 09 17:35:05 2017
+

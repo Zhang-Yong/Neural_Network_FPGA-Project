@@ -1,0 +1,12 @@
+Command line:
+   LearningNetworkTest_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/LearningNetwork_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  54770
+
+Tue Mar 14 21:56:55 2017
+
+
+ Elaboration Time: 3.47882 sec

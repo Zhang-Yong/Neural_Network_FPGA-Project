@@ -1,0 +1,3 @@
+xst -intstyle ise -filter "E:/Xilinx/ASIC_World_Code/Asic_World_Code/iseconfig/filter.filter" -ifn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.xst" -ofn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.syr" 
+xst -intstyle ise -filter "E:/Xilinx/ASIC_World_Code/Asic_World_Code/iseconfig/filter.filter" -ifn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.xst" -ofn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.syr" 
+xst -intstyle ise -filter "E:/Xilinx/ASIC_World_Code/Asic_World_Code/iseconfig/filter.filter" -ifn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.xst" -ofn "E:/Xilinx/ASIC_World_Code/Asic_World_Code/ram_sp_ar_sw.syr" 

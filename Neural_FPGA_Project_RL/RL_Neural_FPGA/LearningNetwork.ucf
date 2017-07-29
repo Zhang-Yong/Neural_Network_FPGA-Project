@@ -1,0 +1,14 @@
+
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/19
+NET "update" TNM_NET = update;
+TIMESPEC TS_update = PERIOD "update" 250 ns HIGH 50% INPUT_JITTER 60 ps;
+#Created by Constraints Editor (xc6slx9-tqg144-2) - 2017/03/19
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 125 ns HIGH 50% INPUT_JITTER 60 ps;
+OFFSET = IN 10 ns VALID 125 ns BEFORE "clk" RISING;
+OFFSET = IN 6 ns VALID 125 ns BEFORE "update" RISING;
+OFFSET = IN 6 ns VALID 125 ns BEFORE "update" FALLING;
+OFFSET = OUT 80 ns AFTER "clk";
+OFFSET = OUT 80 ns AFTER "update" RISING;
+OFFSET = OUT 80 ns AFTER "update" FALLING;
+TIMESPEC TS_cross_domain = FROM "clk" TO "update" 100 ns;

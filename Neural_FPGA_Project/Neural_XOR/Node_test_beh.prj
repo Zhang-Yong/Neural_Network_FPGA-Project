@@ -1,0 +1,4 @@
+vhdl work "../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/Node.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/Node_test.vhd"

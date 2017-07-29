@@ -1,0 +1,436 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LearningNetwork.ngc ...
+WARNING:NetListWriters:298 - No output is written to LearningNetwork.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus weightDeltaKOutNode<23 : 0> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightOut1<5 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod2/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod1/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/multL/posIn2<7 : 1>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mL/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LearningNetwork.edif ...
+ngc2edif: Total memory usage is 91836 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LearningNetwork.ngc ...
+WARNING:NetListWriters:298 - No output is written to LearningNetwork.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus weightDeltaKOutNode<23 : 0> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightOut1<5 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod2/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod1/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/multL/posIn2<7 : 1>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mL/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LearningNetwork.edif ...
+ngc2edif: Total memory usage is 91516 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LearningNetwork.ngc ...
+WARNING:NetListWriters:298 - No output is written to LearningNetwork.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus weightDeltaKOutNode<23 : 0> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightOut1<5 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod2/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod1/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/multL/posIn2<7 : 1>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mL/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LearningNetwork.edif ...
+ngc2edif: Total memory usage is 91836 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LearningNetwork.ngc ...
+WARNING:NetListWriters:298 - No output is written to LearningNetwork.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus weightDeltaKOutNode<23 : 0> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightOut1<5 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod2/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod1/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/multL/posIn2<7 : 1>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus t/weightUpdateMod0/leftMultTemp<7 : 0>
+   on block LearningNetwork is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mL/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mL/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mM/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mM/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_cy<10 : 4> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multAll/Mmult_multRes_Madd3_lut<10 : 3> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod0/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   mR/weightUpdateMod1/multR/Mmult_multRes_Madd1_lut<4 : 2> on block
+   LearningNetwork is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod0/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mR/weightUpdateMod1/multAll/posIn2<4 :
+   1> on block LearningNetwork is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LearningNetwork.edif ...
+ngc2edif: Total memory usage is 91836 kilobytes
+

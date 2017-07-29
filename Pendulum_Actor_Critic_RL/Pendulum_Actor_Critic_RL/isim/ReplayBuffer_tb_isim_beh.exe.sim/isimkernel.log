@@ -1,0 +1,29 @@
+Command line:
+   ReplayBuffer_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61886
+
+Sun Mar 26 20:39:00 2017
+
+
+ Elaboration Time: 0.202801 sec
+
+ Current Memory Usage: 730.309 Meg
+
+ Total Signals          : 229
+ Total Nets             : 80578
+ Total Signal Drivers   : 72
+ Total Blocks           : 18
+ Total Primitive Blocks : 10
+ Total Processes        : 43
+ Total Traceable Variables  : 227
+ Total Scalar Nets and Variables : 81931
+Total Line Count : 362
+
+ Total Simulation Time: 0.265201 sec
+
+ Current Memory Usage: 730.309 Meg
+
+Sun Mar 26 20:43:06 2017
+

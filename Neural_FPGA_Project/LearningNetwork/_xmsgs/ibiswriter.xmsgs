@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PostProcessors" num="123" delta="old" >Uppercase letters not recommended in file names.  Refer to the IBIS Specification (http://www.eigroup.org/ibis/ibis.htm) for allowed characters.  
+</msg>
+
+<msg type="warning" file="PostProcessors" num="0" delta="new" >
+IBIS per-pin parasitics data for this device-package combination could not be found.  This may be due to either of the following cases.
+   (1) The latest IBIS per-pin parasitics data has not yet been installed for <arg fmt="%s" index="1">spartan6</arg>.  Please run XilinxUpdate to check availability, install the latest <arg fmt="%s" index="2">spartan6</arg> models, and run IBISWriter again.
+   (2) The IBIS per-pin models are not available for use at this time.  If this error persists after XilinxUpdate has been run, IBISWriter does not currently support this device package combination.
+
+</msg>
+
+<msg type="warning" file="PostProcessors" num="0" delta="new" >IBIS [Package] Section data is not currently available for package <arg fmt="%s" index="1">tqg144</arg>. Please use XilinxUpdate utility to check availability of updated models.
+Using default package data:
+|variable        typ               min                  max
+R_pkg           300.00m           300.00m              300.00m
+L_pkg           4.00nH            4.00nH               4.00nH
+C_pkg           2.00pF            2.00pF               2.00pF
+</msg>
+
+</messages>
+

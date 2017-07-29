@@ -1,0 +1,31 @@
+Command line:
+   LearningNetwork_isim_par.exe
+     -simmode  gui
+     -sdfmax  /LearningNetwork/=netgen/par/LearningNetwork_timesim.sdf
+     -sdfroot  /
+     -simrunnum  0
+     -socket  55905
+
+Thu Mar 09 19:05:56 2017
+
+
+ Elaboration Time: 3.96243 sec
+
+ Current Memory Usage: 970.719 Meg
+
+ Total Signals          : 76930
+ Total Nets             : 71480
+ Total Signal Drivers   : 40026
+ Total Blocks           : 19145
+ Total Primitive Blocks : 12882
+ Total Processes        : 39404
+ Total Traceable Variables  : 84099
+ Total Scalar Nets and Variables : 1138709
+Total Line Count : 124649
+
+ Total Simulation Time: 11.1697 sec
+
+ Current Memory Usage: 1003.88 Meg
+
+Thu Mar 09 19:35:42 2017
+

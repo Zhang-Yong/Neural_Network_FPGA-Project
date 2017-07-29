@@ -1,0 +1,29 @@
+Command line:
+   weightUpdateHiddenTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59899
+
+Tue Mar 21 16:19:15 2017
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 666.874 Meg
+
+ Total Signals          : 45
+ Total Nets             : 307
+ Total Signal Drivers   : 29
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 25
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 791
+Total Line Count : 38
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 824.16 Meg
+
+Wed Mar 22 14:37:14 2017
+

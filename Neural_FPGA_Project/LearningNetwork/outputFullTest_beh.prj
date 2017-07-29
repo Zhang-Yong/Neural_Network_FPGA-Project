@@ -1,0 +1,7 @@
+vhdl work "../Hardware_Neural_Net-master/Node/Node/multiplier.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/weightUpdateOutput.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/WeightMult.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/Sigmoid.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/sigDerivative.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/OutputNode.vhd"
+vhdl work "../Hardware_Neural_Net-master/Node/Node/outputFullTest.vhd"

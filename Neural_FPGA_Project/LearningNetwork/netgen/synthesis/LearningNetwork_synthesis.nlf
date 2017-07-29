@@ -1,0 +1,22 @@
+Release 14.7 - netgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -filter
+E:/Xilinx/Neural_FPGA_Project/LearningNetwork/iseconfig/filter.filter -intstyle
+ise -ar Structure -tm LearningNetwork -w -dir netgen/synthesis -ofmt vhdl -sim
+LearningNetwork.ngc LearningNetwork_synthesis.vhd  
+
+Reading design 'LearningNetwork.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'E:\Xilinx\Neural_FPGA_Project\LearningNetwork\netgen\synthesis\LearningNetwork_
+synthesis.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 148020 kilobytes

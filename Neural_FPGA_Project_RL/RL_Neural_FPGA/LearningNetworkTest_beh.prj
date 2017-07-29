@@ -1,0 +1,8 @@
+vhdl work "../multiplier.vhd"
+vhdl work "../weightUpdateOutput.vhd"
+vhdl work "../weightUpdateHidden.vhd"
+vhdl work "../WeightMult.vhd"
+vhdl work "../OutputNode.vhd"
+vhdl work "../HiddenNode.vhd"
+vhdl work "../LearningNetwork.vhd"
+vhdl work "../LearningNetwork_tb.vhd"
